@@ -12,7 +12,8 @@ export default defineConfig({
 		starlight({
 			title: 'Docs',
 			logo: {
-				src: './src/assets/logo_full.png',
+				light: './src/assets/logo_full_light.png',
+				dark: './src/assets/logo_full_dark.png',
 			},
 			favicon: './src/assets/favicon.ico',
 			customCss: [
