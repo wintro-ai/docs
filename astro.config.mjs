@@ -4,6 +4,9 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://docs.wintro.ai',
+	redirects: {
+		'/' : '/intro-to-wintro/what-is-wintro',
+	},
 	// base: 'docs',
 	integrations: [
 		starlight({
@@ -16,9 +19,6 @@ export default defineConfig({
 				// Add custom CSS to the docs.
 				'./src/custom.css'
 			],
-			redirects: {
-				'/' : '/intro-to-wintro/what-is-wintro',
-			},
 			social: {
 				linkedin: 'https://www.linkedin.com/company/wintroai/',
 				// github: 'https://www.github.com/wintro-ai/docs/',
