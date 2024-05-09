@@ -3,7 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://www.wintro.ai/',
+	site: 'docs.wintro.ai',
+	// base: 'docs',
 	integrations: [
 		starlight({
 			title: 'Docs',
