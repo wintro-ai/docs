@@ -16,13 +16,9 @@ export default defineConfig({
 				// Add custom CSS to the docs.
 				'./src/custom.css'
 			],
-			redirects: [
-				{
-					source: '/',
-					destination: '/intro-to-wintro/what-is-wintro',
-					permanent: true,  // or `false` for temporary redirects
-				},
-			],
+			redirects: {
+				'/' : '/intro-to-wintro/what-is-wintro',
+			},
 			social: {
 				linkedin: 'https://www.linkedin.com/company/wintroai/',
 				// github: 'https://www.github.com/wintro-ai/docs/',
