@@ -1,6 +1,6 @@
 ---
 title: Data Inquiry
-description: Get your data from Wintro
+description: Request your data from Wintro
 ---
 
 It is possible for clients to request insight to their related logs and data. For an inquiry, please contact [security@wintro.ai](mailto:security@wintro.ai), as an automated process for this is currently not available. Please provide as many details as possible so our support team can get back to you as soon as possible.

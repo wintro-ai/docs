@@ -1,6 +1,6 @@
 ---
 title: Security & Compliance
-description: A guide in my new Starlight docs site.
+description: How Wintro stays secure and compliant
 ---
 
 For general questions about our system, infrastructure and information security, please reach us over at [infosec@wintro.ai](mailto:infosec@wintro.ai).
