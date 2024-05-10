@@ -1,11 +1,19 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: General Data Protection Regulation (GDPR)
+description: How Wintro complies with GDPR
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+Within the context of [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), Wintro acts as a ‘data processor’ for all company-specific data processing, except for all public non-company-specific data where Wintro acts as a 'data controller' .
 
-## Further reading
+![image](https://docs.uman.ai/images/architecture/data-processor.png)
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+As indicated above, Wintro leverages AWS, Azure, Vercel and Supabase as subprocessors in the context of GDPR. AWS, Azure, Vercel and Supabase are all actively involved and supporting GPDR in its services, for more information see:
+
+*   [AWS & GDPR](https://aws.amazon.com/compliance/gdpr-center/).
+*   [Azure & GDPR](https://www.microsoft.com/en-us/trust-center/privacy/gdpr-overview).
+*   [Vercel & GDPR](https://vercel.com/docs/security#gdpr).
+*   [Supabase & GDPR](https://supabase.com/downloads/docs/Supabase+DPA+231211.pdf).
+
+### Data Processing Agreement
+
+You can find our data processing terms [here](https://docs.google.com/document/d/1TSZuwNEBCwjlRA5xNc6ZA5JZlxex-FgW/edit?usp=sharing&ouid=113651844899778504559&rtpof=true&sd=true).

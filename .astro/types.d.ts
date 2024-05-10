@@ -157,6 +157,34 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"integrations/bullhorn.md": {
+	id: "integrations/bullhorn.md";
+  slug: "integrations/bullhorn";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/carerix.md": {
+	id: "integrations/carerix.md";
+  slug: "integrations/carerix";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/cornerstone.md": {
+	id: "integrations/cornerstone.md";
+  slug: "integrations/cornerstone";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/factorial-hr.md": {
+	id: "integrations/factorial-hr.md";
+  slug: "integrations/factorial-hr";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "integrations/greenhouse.md": {
 	id: "integrations/greenhouse.md";
   slug: "integrations/greenhouse";
@@ -171,9 +199,79 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"integrations/jobvite.md": {
+	id: "integrations/jobvite.md";
+  slug: "integrations/jobvite";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/lever.md": {
+	id: "integrations/lever.md";
+  slug: "integrations/lever";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "integrations/oracle-recruiting.md": {
 	id: "integrations/oracle-recruiting.md";
   slug: "integrations/oracle-recruiting";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/personio.md": {
+	id: "integrations/personio.md";
+  slug: "integrations/personio";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/recruitee.md": {
+	id: "integrations/recruitee.md";
+  slug: "integrations/recruitee";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/sage.md": {
+	id: "integrations/sage.md";
+  slug: "integrations/sage";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/sap-successfactors.md": {
+	id: "integrations/sap-successfactors.md";
+  slug: "integrations/sap-successfactors";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/smartrecruiters.md": {
+	id: "integrations/smartrecruiters.md";
+  slug: "integrations/smartrecruiters";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/teamtailor.md": {
+	id: "integrations/teamtailor.md";
+  slug: "integrations/teamtailor";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/workable.md": {
+	id: "integrations/workable.md";
+  slug: "integrations/workable";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/workday.md": {
+	id: "integrations/workday.md";
+  slug: "integrations/workday";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">

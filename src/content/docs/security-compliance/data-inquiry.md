@@ -1,11 +1,18 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Data Inquiry
+description: Get your data from Wintro
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+It is possible for clients to request insight to their related logs and data. For an inquiry, please contact [security@wintro.ai](mailto:security@wintro.ai), as an automated process for this is currently not available. Please provide as many details as possible so our support team can get back to you as soon as possible.
 
-## Further reading
+### What data can be requested?
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+Any data that is related to the user can be requested. This includes:
+
+*   Logs of the user’s interactions with the Wintro web application
+*   Vacancies synced with the Wintro web application
+*   Network data synced with the Wintro web application
+
+### How long does it take to fulfill a request?
+
+Wintro aims to fulfill any request within 5 business days. If this is not possible, we will inform you about the delay and the reason for it.

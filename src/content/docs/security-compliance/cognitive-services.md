@@ -1,11 +1,8 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Cognitive Services
+description: How Wintro uses cognitive services
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+The Wintro platform relies on a range of internal and external services to analyze, process, and generate content. As for external services, Wintro leverages large language models, among others, from Azure’s Cognitive Services module (e.g. the GPT models) and Google Cloud Platform’s VertexAI (e.g. Gemini models).
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+_Note:_ For private company data, Wintro **exclusively** uses Azure services. This is to ensure that private data stays in the private cloud network.
