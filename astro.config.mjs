@@ -15,7 +15,7 @@ export default defineConfig({
 				light: './src/assets/logo_full_light.png',
 				dark: './src/assets/logo_full_dark.png',
 			},
-			favicon: '/favicon.ico',
+			favicon: '/favicon-32x32.png',
 			customCss: [
 				// Add custom CSS to the docs.
 				'./src/custom.css'
