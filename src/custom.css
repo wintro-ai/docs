@@ -5,6 +5,13 @@
         width: var(--sl-sidebar-width);
         background-color: var(--sl-color-bg-sidebar);
         border-inline-end: none; /* Set to 'none' to remove the border */
+        
+        /* Styles for .container integrated here, as .sidebar-pane is treated as .container */
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .sidebar-pane::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
     }
 }
 

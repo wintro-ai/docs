@@ -57,6 +57,29 @@ export default defineConfig({
 						{ label: 'Secure Development', link: '/security-compliance/secure-development' },
 					]
 				},
+				{
+					label: 'Integrations',
+					items: [
+						{ label: 'BambooHR', link: '/integrations/bamboohr' },
+						{ label: 'Bullhorn', link: '/integrations/bullhorn' },
+						{ label: 'Carerix', link: '/integrations/carerix' },
+						{ label: 'Cornerstone', link: '/integrations/cornerstone' },
+						{ label: 'Factorial HR', link: '/integrations/factorial-hr' },
+						{ label: 'Greenhouse', link: '/integrations/greenhouse' },
+						{ label: 'iCIMS', link: '/integrations/icims' },
+						{ label: 'Jobvite', link: '/integrations/jobvite' },
+						{ label: 'Lever', link: '/integrations/lever' },
+						{ label: 'Oracle Recruiting', link: '/integrations/oracle-recruiting' },
+						{ label: 'Personio', link: '/integrations/personio' },
+						{ label: 'Recruitee', link: '/integrations/recruitee' },
+						{ label: 'Sage', link: '/integrations/sage' },
+						{ label: 'SAP SuccessFactors', link: '/integrations/sap-successfactors' },
+						{ label: 'SmartRecruiters', link: '/integrations/smartrecruiters' },
+						{ label: 'Teamtailor', link: '/integrations/teamtailor' },
+						{ label: 'Workable', link: '/integrations/workable' },
+						{ label: 'Workday', link: '/integrations/workday' }
+					],
+				}
 			],
 		}),
 	],

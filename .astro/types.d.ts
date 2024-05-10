@@ -150,6 +150,34 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"integrations/bamboohr.md": {
+	id: "integrations/bamboohr.md";
+  slug: "integrations/bamboohr";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/greenhouse.md": {
+	id: "integrations/greenhouse.md";
+  slug: "integrations/greenhouse";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/icims.md": {
+	id: "integrations/icims.md";
+  slug: "integrations/icims";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"integrations/oracle-recruiting.md": {
+	id: "integrations/oracle-recruiting.md";
+  slug: "integrations/oracle-recruiting";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "intro-to-wintro/what-is-wintro.mdx": {
 	id: "intro-to-wintro/what-is-wintro.mdx";
   slug: "intro-to-wintro/what-is-wintro";
