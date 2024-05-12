@@ -136,6 +136,27 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
+"candidates/example copy.md": {
+	id: "candidates/example copy.md";
+  slug: "candidates/example-copy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"candidates/example.md": {
+	id: "candidates/example.md";
+  slug: "candidates/example";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"employees/example copy.md": {
+	id: "employees/example copy.md";
+  slug: "employees/example-copy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "employees/example.md": {
 	id: "employees/example.md";
   slug: "employees/example";
@@ -290,13 +311,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"intro-to-wintro/request-demo.md": {
-	id: "intro-to-wintro/request-demo.md";
-  slug: "intro-to-wintro/request-demo";
+"intro-to-wintro/request-a-demo.mdx": {
+	id: "intro-to-wintro/request-a-demo.mdx";
+  slug: "intro-to-wintro/request-a-demo";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
+} & { render(): Render[".mdx"] };
 "intro-to-wintro/what-is-wintro.mdx": {
 	id: "intro-to-wintro/what-is-wintro.mdx";
   slug: "intro-to-wintro/what-is-wintro";
@@ -304,6 +325,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
+"recruiters/example copy 2.md": {
+	id: "recruiters/example copy 2.md";
+  slug: "recruiters/example-copy-2";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"recruiters/example copy.md": {
+	id: "recruiters/example copy.md";
+  slug: "recruiters/example-copy";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "recruiters/example.md": {
 	id: "recruiters/example.md";
   slug: "recruiters/example";
