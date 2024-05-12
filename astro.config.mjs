@@ -32,6 +32,7 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'What is Wintro?', link: '/intro-to-wintro/what-is-wintro' },
+						{ label: 'Request a Demo', link: '/intro-to-wintro/request-a-demo' },
 					],
 				},
 				{
@@ -41,6 +42,10 @@ export default defineConfig({
 				{
 					label: 'For Employees',
 					autogenerate: { directory: 'employees' },
+				},
+				{
+					label: 'For Candidates',
+					autogenerate: { directory: 'candidates' },
 				},
 				{
 					label: 'Security & Compliance',

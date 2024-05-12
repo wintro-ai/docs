@@ -143,6 +143,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"employees/manual-referral.md": {
+	id: "employees/manual-referral.md";
+  slug: "employees/manual-referral";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"employees/privacy-notice.md": {
+	id: "employees/privacy-notice.md";
+  slug: "employees/privacy-notice";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "index.mdx": {
 	id: "index.mdx";
   slug: "index";
@@ -276,6 +290,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"intro-to-wintro/request-demo.md": {
+	id: "intro-to-wintro/request-demo.md";
+  slug: "intro-to-wintro/request-demo";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "intro-to-wintro/what-is-wintro.mdx": {
 	id: "intro-to-wintro/what-is-wintro.mdx";
   slug: "intro-to-wintro/what-is-wintro";
@@ -286,6 +307,13 @@ declare module 'astro:content' {
 "recruiters/example.md": {
 	id: "recruiters/example.md";
   slug: "recruiters/example";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"recruiters/refer-a-recruiter.md": {
+	id: "recruiters/refer-a-recruiter.md";
+  slug: "recruiters/refer-a-recruiter";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
