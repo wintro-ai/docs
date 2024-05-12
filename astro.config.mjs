@@ -142,5 +142,9 @@ export default defineConfig({
         link: '/integrations/workday'
       }]
     }]
-  }), tailwind()]
+  }),
+  tailwind({
+	// Disable the default base styles:
+	applyBaseStyles: false,
+  }),]
 });

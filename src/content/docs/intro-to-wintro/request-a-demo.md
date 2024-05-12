@@ -9,9 +9,7 @@ Experience firsthand how Wintro can streamline your organization's referral hiri
 
 We've made scheduling a demo with us straightforward. Click on the link below to choose a date and time that works best for you. Our team is eager to show you what Wintro can do and how it can make your recruitment process more efficient.
 
-
-<a href="https://calendar.app.google/XFnkVgChDay9riY18" target="_blank"><button class="bg-[#3447ff] hover:bg-blue-700 text-white font-bold py-2 px-4 my-4 rounded-full">Schedule a Demo</button></a>
-
+<a href="https://calendar.app.google/XFnkVgChDay9riY18" target="_blank">Schedule a Demo</a>
 
 If you would like to attend the demo with multiple persons, please schedule in an hour instead of 30 minutes <a href="https://calendar.app.google/KmPWMoZPQq7paf4z7" target="_blank">here</a>.
 

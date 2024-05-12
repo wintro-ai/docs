@@ -6,7 +6,7 @@ description: How Wintro complies with GDPR
 Within the context of [GDPR](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation), Wintro acts as a ‘data processor’ for all company-specific data processing, except for all public non-company-specific data where Wintro acts as a 'data controller' .
 
 <!-- ![image](https://docs.uman.ai/images/architecture/data-processor.png) -->
-![image](/src/assets/information_flow.png)
+![image](/information_flow.png)
 
 ### 
 
