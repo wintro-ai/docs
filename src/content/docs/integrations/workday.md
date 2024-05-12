@@ -51,7 +51,7 @@ While the newly created ISU will work for linking your Workday account, its pass
 3.  On the page that just appeared locate the **dropdown** "**Type of Tenanted Security Group"** and select "**Integration System Security Group (Unconstrained)**"
 4.  For the **"Name"** enter the value of the **"User Name"** when creating the ISU earlier (in this case it would be _test\_isu_, but yours will be different)
 5.  At the bottom of the page, click "OK"![Workday_configure_security_group.png](https://help.kombo.dev/hc/article_attachments/14440201626385)
-6.  On the next page, the only thing you have to do is go to the field **"Integration System Users"** and add the user you created earlier. You can do this by clicking on the field and typing in the name of the ISU (in this case "test\_isu_"_)
+6.  On the next page, the only thing you have to do is go to the field **"Integration System Users"** and add the user you created earlier. You can do this by clicking on the field and typing in the name of the ISU (in this case _"test\_isu"_)
 7.  After that, go ahead and click "OK"![Workday_edit_security_group.png](https://help.kombo.dev/hc/article_attachments/14440486943505)
 
 ### Add the required permissions to the security group
@@ -59,12 +59,11 @@ While the newly created ISU will work for linking your Workday account, its pass
 1.  Click on the **"Search"** field at the top and enter **"Maintain Permission for Security Group"**
 2.  Click on the task **"Maintain Permission for Security Group"** that just appeared![Workday_maintain_permissions_of_security_gruop.png](https://help.kombo.dev/hc/article_attachments/14440751396497)
 3.  In the window that just appeared, make sure you have the option **"Maintain"** selected
-4.  Click the field **"Source Security Group"**, enter the name of the group (in this case _test\_isu)_ and hit enter. Then click on the security group to select it.
+4.  Click the field **"Source Security Group"**, enter the name of the group (in this case _test\_isu_) and hit enter. Then click on the security group to select it.
 5.  Click **"OK"**![Workday_select_security_group_to_maintain.png](https://help.kombo.dev/hc/article_attachments/14440981671185)
 6.  In the window that just appeared, you can add the permissions you want for the ISU. You can find the list of permissions needed in the connection flow.  
     ![Workday](https://help.kombo.dev/hc/article_attachments/16398826334481)_  
-    **  
-    The list of permissions here is only an example. Please check your own permissions in the connection flow.**  
+    **The list of permissions here is only an example. Please check your own permissions in the connection flow.**  
 
 **For each permission, repeat** the following process:  
     1.  Make sure the tab **"Domain Security Policy Permissions"** is selected
@@ -83,7 +82,7 @@ After making any changes to your Workday security policy settings, make sure to 
 1.  Click on the "**Search**" field at the top and enter "**Activate Pending Security Policy Changes**"
 2.  Click on the task **"Activate Pending Security Policy Changes"** that just appeared![Workday_activate_pending_security_changes_task.png](https://help.kombo.dev/hc/article_attachments/14647562265233)
 3.  In the window that just appeared, add any **comment** for applying the changes (i.e. **"Grant ISU _test\_isu_ necesssary permissions for integratons"**
-4.  Click **"OK"****![Workday_activate_pending_security_task_comment.png](https://help.kombo.dev/hc/article_attachments/14647573329553)**
+4.  Click **"OK"**![Workday_activate_pending_security_task_comment.png](https://help.kombo.dev/hc/article_attachments/14647573329553)
 5.  In the new window, check the box **"Confirm"**
 6.  Click **"OK"![Workday_activate_pending_security_policy_changes_confirm.png](https://help.kombo.dev/hc/article_attachments/14647666232849)**
 
@@ -97,10 +96,13 @@ If you want to read/write absence (time off) data from your Workday instance (mo
 3.  In the window that just appeared, enter a **"Client Name"**, i.e. _"test\_isu API client"_
 4.  Make sure the option **"Non-Expiring Refresh Tokens"** is turned on
 5.  For the field **"Scope (Functional Areas)"**, enter the values  
-    **Tenant Non-Configurable  
-    Staffing**  
-    **Time Off and Leave****  
-    System**
+    _Tenant Non-Configurable_
+
+    _Staffing_  
+
+    _Time Off and Leave_
+    
+    _System_
 6.  Click **"OK"![](https://help.kombo.dev/hc/article_attachments/17343707733649)**
 7.  In the new window, copy the **Client ID** and **Client Secret** for later use, then **do not click** **"Done"![Workday_create_API_client_show_token.png](https://help.kombo.dev/hc/article_attachments/14648907487249)**
 8.  **Still on the same page**, click the three dots at the top, then **"API Client" > "Manage Refresh Tokens for Integrations"![Workday_create_API_client_find_manage_refresh_token.png](https://help.kombo.dev/hc/article_attachments/14648963263633)**

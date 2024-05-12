@@ -36,9 +36,10 @@ That's it! The rest of this document is a step-by-step walkthrough of everything
     ![](https://help.kombo.dev/hc/article_attachments/18717990383249)  
       
     
-2.  Next, scroll down to **"Tools"** open the menu, then go to **"Security Console":****  
+2.  Next, scroll down to **"Tools"** open the menu, then go to **"Security Console":**
+   
     ![](https://help.kombo.dev/hc/article_attachments/18718397681681)  
-    **Note: If you don't see the **"Security Console"** setting, you don't have the right permissions to complete the connection.  
+    Note: If you don't see the **"Security Console"** setting, you don't have the right permissions to complete the connection.  
       
     
 3.  Search for the role "recruiter" in the search as pictured:  
@@ -66,16 +67,14 @@ That's it! The rest of this document is a step-by-step walkthrough of everything
       
     
 10.  Next, for each required role, search for the role, select the role, and then add the role:  
-    ![](https://help.kombo.dev/hc/article_attachments/18765182623889)  
-      
+    ![](https://help.kombo.dev/hc/article_attachments/18765182623889)
     Select all the required roles, then add them to the user.  
-    **Note: This will look different in each case, please add the roles found in your connection flow:  
-    **![](https://help.kombo.dev/hc/article_attachments/18765339969041)  
+    Note: This will look different in each case, please add the roles found in your connection flow:  
+    ![](https://help.kombo.dev/hc/article_attachments/18765339969041)  
       
     
-11.  Once you have added all the required roles to the user, press **"Save and Close".  
+11.  Once you have added all the required roles to the user, press **"Save and Close"**.  
       
-    **
 12.  In the right top menu, click on "**Setup and Maintenance**":  
     ![](https://help.kombo.dev/hc/article_attachments/23439526146961)  
       
@@ -97,8 +96,7 @@ That's it! The rest of this document is a step-by-step walkthrough of everything
       
     
 17.  Select the entry as it appears, and select "**Edit**":  
-    ![](https://help.kombo.dev/hc/article_attachments/23439518115345)  
-      
+    ![](https://help.kombo.dev/hc/article_attachments/23439518115345)    
     Click "**Yes**" when prompted.  
       
     

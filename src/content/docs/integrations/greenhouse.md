@@ -46,10 +46,9 @@ Before getting started, please **carefully read** the following to make sure y
     ![](https://help.kombo.dev/hc/article_attachments/17655164380817)  
       
     
-4.  Click on **"Create New Api Key":****  
+4.  Click on **"Create New Api Key"**:
     ![](https://help.kombo.dev/hc/article_attachments/17652712383633)  
       
-    **
 5.  Enter the following details:
     *   **API Type:** Harvest
     *   **Partner:** Custom

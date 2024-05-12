@@ -13,8 +13,7 @@ Please **carefully read** the following to make sure you are able to complete th
 
 ### Overview
 
-_Estimated, overall setup time: 30 minutes.  
-_
+_Estimated, overall setup time: 30 minutes._
 
 Fundamentally, there are 3 main steps you have to complete to set up the integration:
 
@@ -49,8 +48,9 @@ _Your API endpoint will depend on where your SAP SuccessFactors instance is lo
 
 ### Create a new user
 
-1.  In the admin center, go to the search console and type in "**Import Employee Data"  
-    **Click on the action that just appeared:  
+1.  In the admin center, go to the search console and type in "**Import Employee Data"**.
+
+    Click on the action that just appeared:  
     ![SuccessFactors](https://help.kombo.dev/hc/article_attachments/16225078892433)
 2.  Click on "**Import data"** and then select "**Download Template"**:  
     ![SuccessFactors](https://help.kombo.dev/hc/article_attachments/16225050019345)

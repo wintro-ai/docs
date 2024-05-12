@@ -13,14 +13,13 @@ Finding your subdomain
 Permissions
 -----------
 
-**The permissions of BambooHR's API key depends on the "Access Levels" of the user who creates the API key.  
-**
+The permissions of BambooHR's API key depends on the "Access Levels" of the user who creates the API key.
 
-**This means that if you only want minimal permissions, you need to create a new user and assign that user to a newly created access level.  
-  
+This means that if you only want minimal permissions, you need to create a new user and assign that user to a newly created access level.
+
 **In order to create a new user, go to People, and then click on "New Employee":**  
 ![](https://help.kombo.dev/hc/article_attachments/23347384200081)  
-**Enter a valid email address for the user that you can access.  
+Enter a valid email address for the user that you can access.  
 Further, ensure that you select "Allow Access to BambooHR"  
 ![](https://help.kombo.dev/hc/article_attachments/23347384202129)
 

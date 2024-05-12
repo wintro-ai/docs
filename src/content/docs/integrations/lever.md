@@ -20,9 +20,18 @@ Before getting started, please **carefully read** the following to make sure y
 
 ### Connect your account via OAuth
 
-1.  Open the connection flow and click on the "**Sign in with Lever**" Button![Lever_click_sign_in.png](https://help.kombo.dev/hc/article_attachments/15754792574993)
+1.  Open the connection flow and click on the "**Sign in with Lever**" Button
+   
+    ![Lever_click_sign_in.png](https://help.kombo.dev/hc/article_attachments/15754792574993)
 2.  If you are not already logged into your **Lever administrator account**, do so on the page that just appeared  
+   
     ![Lever_enter_credentials.png](https://help.kombo.dev/hc/article_attachments/15754777208337)
-3.  Now you will see a list of scopes that should be granted, scroll to the bottom of the page![Lever_permissions_scroll_down.png](https://help.kombo.dev/hc/article_attachments/15754784040721)
-4.  At the bottom, click on "**Accept**"![Lever_permissions_accept.png](https://help.kombo.dev/hc/article_attachments/15754792647185)
-5.  Congratulations, you successfully connected your Lever account![Lever_successful_connection.png](https://help.kombo.dev/hc/article_attachments/15754792693649)
+3.  Now you will see a list of scopes that should be granted, scroll to the bottom of the page
+    
+    ![Lever_permissions_scroll_down.png](https://help.kombo.dev/hc/article_attachments/15754784040721)
+4.  At the bottom, click on "**Accept**"
+   
+    ![Lever_permissions_accept.png](https://help.kombo.dev/hc/article_attachments/15754792647185)
+5.  Congratulations, you successfully connected your Lever account
+
+    ![Lever_successful_connection.png](https://help.kombo.dev/hc/article_attachments/15754792693649)

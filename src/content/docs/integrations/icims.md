@@ -15,6 +15,8 @@ Everything you need for the iCIMS ATS integration has to be done by the iCIMS' [
 Once you have received the [prerequisites](#prerequisites) from your iCIMS support [contact](https://www.icims.com/company/contact-us/), you can fill them into the connection flow:
 
 *   Enter your **Customer ID**:  
+
     ![SCR-20240314-mbgs.png](https://help.kombo.dev/hc/article_attachments/23339682542481)
-*   Enter your **API Username** and **Password**, and click on **"Set up integration"**:**  
-    ![SCR-20240314-mbkc.png](https://help.kombo.dev/hc/article_attachments/23339673398417)**
+*   Enter your **API Username** and **Password**, and click on **"Set up integration"**:
+
+    ![SCR-20240314-mbkc.png](https://help.kombo.dev/hc/article_attachments/23339673398417)
