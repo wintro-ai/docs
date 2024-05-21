@@ -3,10 +3,11 @@ title: Access Controls
 description: How a user can access Wintro
 ---
 
-At this time, we support Single Sign-On authentication from the following providers:
+At this time, we support Single Sign-On (SSO) authentication from the following providers:
 
-*   Google Sign-In (including [Cloud Identity](https://cloud.google.com/identity))
-*   Microsoft Single Sign-On (including [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id)).
+*   [Google Workspace](https://workspace.google.com/)
+*   [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) (previously Azure AD)
+*   [Okta](https://www.okta.com/)
 
 ### Authentication
 
@@ -14,15 +15,20 @@ At this time, we support Single Sign-On authentication from the following provid
 
 ### Authorization
 
-Authorization happens on two levels within Wintro. The first level is role based, where a user is assigned a role in a workspace which determines what actions they can perform. This can be managed within Wintro.
+Authorization within Wintro is managed on two levels:
 
-The second level is based on the tenant Wintro is integrated with and is only applicable if the organization opted to have this enabled. Permissions from the Messaging system can be mirrored, meaning recruiters that can send messages to only a subset of employees, will only be able to send messages to that subset of employees from inside Wintro.
+1. **Role-Based Authorization:** This foundational level involves assigning specific roles to users within a workspace, dictating the range of actions they are authorized to perform. These roles and permissions are configurable within the Wintro platform by the workspace administrators and described below.
+
+2. **Tenant-Specific Authorization:** This type of authorization is only applicable to organisations who have set this up in their ATS as well and is applicable only for organizations that choose to enable it. For vacancy-related data, organizations must explicitly opt-in to allow Wintro to access and sync vacancy information. This ensures that only authorized data is accessed according to the permissions granted by the organization.
+
+   For the Messaging system, permissions are initiated individually by each recruiter. This means that a recruiter's ability to send messages through Wintro will mirror their permissions in the external messaging system (e.g., Slack or Teams). For instance, if a recruiter can only send messages to a specific group of employees outside Wintro, the same restrictions apply within Wintro.
 
 ### Roles
 
 Wintro supports the following roles, on a per workspace basis, going from most to least privileged:
 
-*   **Recruiter**: access to all synced vacancies and generated matches
-*   **Employee**: access to only his/her connected generated matches
+*   **Admin**: access to all company settings, synced vacancies and generated matches
+*   **Recruiter**: access to all assigned synced vacancies and generated matches
+*   **Employee**: access to enabled vacancies and only his/her connected generated matches
 
-Typically, recruiter role is granted by a Wintro employee during the set-up of the workspace.
+Typically, admin and recruiters roles are granted by a Wintro employee during the set-up of the workspace.

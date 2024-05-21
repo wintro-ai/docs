@@ -311,13 +311,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"intro-to-wintro/request-a-demo.mdx": {
-	id: "intro-to-wintro/request-a-demo.mdx";
+"intro-to-wintro/request-a-demo.md": {
+	id: "intro-to-wintro/request-a-demo.md";
   slug: "intro-to-wintro/request-a-demo";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
-} & { render(): Render[".mdx"] };
+} & { render(): Render[".md"] };
 "intro-to-wintro/what-is-wintro.mdx": {
 	id: "intro-to-wintro/what-is-wintro.mdx";
   slug: "intro-to-wintro/what-is-wintro";

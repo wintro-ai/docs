@@ -9,9 +9,10 @@ It is possible for clients to request insight to their related logs and data. Fo
 
 Any data that is related to the user can be requested. This includes:
 
-*   Logs of the user’s interactions with the Wintro web application
-*   Vacancies synced with the Wintro web application
-*   Network data synced with the Wintro web application
+*   Logs of the user’s interactions with Wintro
+*   Synced vacancies
+*   Synced network data
+*   Generated matches
 
 ### How long does it take to fulfill a request?
 

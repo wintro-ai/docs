@@ -37,22 +37,24 @@ export default defineConfig({
         label: 'Request a Demo',
         link: '/intro-to-wintro/request-a-demo'
       }]
-    }, {
-      label: 'For Recruiters',
-      autogenerate: {
-        directory: 'recruiters'
-      }
-    }, {
-      label: 'For Employees',
-      autogenerate: {
-        directory: 'employees'
-      }
-    }, {
-      label: 'For Candidates',
-      autogenerate: {
-        directory: 'candidates'
-      }
-    }, {
+    }, 
+	// {
+    //   label: 'For Recruiters',
+    //   autogenerate: {
+    //     directory: 'recruiters'
+    //   }
+    // }, {
+    //   label: 'For Employees',
+    //   autogenerate: {
+    //     directory: 'employees'
+    //   }
+    // }, {
+    //   label: 'For Candidates',
+    //   autogenerate: {
+    //     directory: 'candidates'
+    //   }
+    // }, 
+	{
       label: 'Security & Compliance',
       items: [
       // Each item here is one entry in the navigation menu.

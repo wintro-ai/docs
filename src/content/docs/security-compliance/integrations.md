@@ -25,6 +25,6 @@ For detailed information on data processing and storage, see [Data Processing](/
 
 Please refer to the specific documentation pages for each supported integration to understand the setup and requested scopes. These can be found in the the left sidebar under _Integrations_.
 
-### Data Exfiltration Risk
+<!-- ### Data Exfiltration Risk
 
-Enabling download functionality in Wintro allows users to download content to their local workstations. This may lead to a possible elevation of permissions if users only have read permissions in the source system. Carefully consider this risk before enabling download functionality.
+Enabling download functionality in Wintro allows users to download content to their local workstations. This may lead to a possible elevation of permissions if users only have read permissions in the source system. Carefully consider this risk before enabling download functionality. -->
