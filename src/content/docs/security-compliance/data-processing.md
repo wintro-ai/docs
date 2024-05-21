@@ -25,6 +25,7 @@ Wintro uses a combination of cloud-based services to process and store data secu
 
 Data enters our system through various channels including direct user inputs, integrations with public data platforms, and interactions with client's Applicant Tracking Systems (ATS). Here’s how we handle the different types of data:
 
+
 1. **Public Data Platforms**: We aggregate public data to enrich the profiles within our system, enhancing the matchmaking process between candidates and vacancies.
 
 2. **Client's ATS**: We integrate with clients' ATS via the ATS' secure APIs to synchronize vacancy and applicant data, which helps in providing tailored recommendations and facilitating the recruitment process. Wintro reads vacancy (and optionally applicant data) from ATS integrations, storing this data securely to cross-reference while matching candidates with vacancies. Check the Integrations section for supported ATS systems.
