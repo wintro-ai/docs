@@ -5,8 +5,6 @@ description: Request a demo of Wintro
 
 Experience firsthand how Wintro can streamline your organization's referral hiring process and enhance the overall quality of your recruits. Our demo will provide a comprehensive look at our platform's capabilities, tailored specifically to your needs.
 
-### Schedule Your Demo
-
 We've made scheduling a demo with us straightforward. Click on the link below to choose a date and time that works best for you. Our team is eager to show you what Wintro can do and how it can make your recruitment process more efficient.
 
 <a href="https://calendar.app.google/XFnkVgChDay9riY18" target="_blank">Schedule a Demo</a>

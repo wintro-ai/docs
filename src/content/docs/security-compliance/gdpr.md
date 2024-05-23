@@ -21,6 +21,6 @@ As indicated in the [Architecture](/security-compliance/architecture) section, W
 
 You can find our data processing terms [here](https://docs.google.com/document/d/1TSZuwNEBCwjlRA5xNc6ZA5JZlxex-FgW/edit?usp=sharing&ouid=113651844899778504559&rtpof=true&sd=true).
 
-### User (Employee) Privacy Notice
+### User Privacy Notice
 
-You can find our employee privacy notice [here](https://docs.google.com/document/d/1TSZuwNEBCwjlRA5xNc6ZA5JZlxex-FgW/edit?usp=sharing&ouid=113651844899778504559&rtpof=true&sd=true).
+You can find our privacy notice [here](https://www.wintro.ai/privacy-notice).

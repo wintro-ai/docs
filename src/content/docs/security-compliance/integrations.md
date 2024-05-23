@@ -13,7 +13,7 @@ Wintro provides three types of integrations:
 
 ### General Integration Setup
 
-Only users with recruiter privileges on Wintro can set up integrations. The ATS integration has to be set up only once by an authorized recruiter and can be done in the Settings view in Wintro. The Messaging and LinkedIn integrations have to be set up by each recruiter, and can also be done in the Settings view.
+Only users with recruiter privileges on Wintro can set up ATS and messaging integrations. The ATS integration has to be set up only once by an authorized recruiter and can be done in the Settings view in Wintro. The Messaging and LinkedIn integrations have to be set up by each recruiter, and can also be done in the Settings view. Each employee can choose on how to connect their personal network data, either through a connected recruiter's account, through a manual upload of downloaded LinkedIn data or by installing the Wintro Companion Chrome Extension themselves.
 
 Messaging integrations with Teams and Slack use the [OAuth 2.0 protocol](https://oauth.net/2/). OAuth 2.0 is an industry-standard protocol for authorization, providing secure, scoped access. The refresh and access tokens are encrypted via AES-256-CBC encryption, with each workspace assigned a unique key. User and group information related to these integrations is also securely stored.
 

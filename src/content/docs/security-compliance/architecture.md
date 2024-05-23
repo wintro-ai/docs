@@ -3,7 +3,7 @@ title: Architecture
 description: Wintro's IT architecture explained
 ---
 
-The Wintro platform is built on top of [Amazon Web Services](https://aws.amazon.com).
+The Wintro platform is built on top of [Amazon Web Services](https://aws.amazon.com) for our core infrastructure, and uses [Azure AI Services](https://azure.microsoft.com/en-us/products/ai-services)' [OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service) for enhancing Wintro with LLM capabilities.
 
 The following diagram depicts the high-level architecture with its main components:
 
@@ -33,7 +33,7 @@ In the multi-tenant architecture, the data is logically separated in the backend
 
 In general, the user is authenticated via the JSON Web Tokens (JWT) and data is restricted to the tenant scope.
 
-For more information on how the data is stored, see [Storage layers](/security-compliance/data-processing/#storage-layers "Storage Layers")
+For more information on how the data is stored, see [Storage layers](/security-compliance/data-processing/#storage-layers "Storage Layers").
 
 ### More information
 
