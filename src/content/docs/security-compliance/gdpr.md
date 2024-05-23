@@ -19,7 +19,7 @@ As indicated in the [Architecture](/security-compliance/architecture) section, W
 
 ### Data Processing Agreement
 
-You can find our data processing terms [here](https://docs.google.com/document/d/1TSZuwNEBCwjlRA5xNc6ZA5JZlxex-FgW/edit?usp=sharing&ouid=113651844899778504559&rtpof=true&sd=true).
+You can find our data processing terms [here](https://docs.google.com/document/d/1jrv_7FW57t158biDY9kbU6fBTFaG32rn/edit?usp=sharing&ouid=116273770943708002060&rtpof=true&sd=true).
 
 ### User Privacy Notice
 
