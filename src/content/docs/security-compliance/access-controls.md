@@ -7,7 +7,7 @@ At this time, we support Single Sign-On (SSO) authentication from the following 
 
 *   [Google Workspace](https://workspace.google.com/)
 *   [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) (previously Azure AD)
-*   [Okta](https://www.okta.com/)
+*   [Okta](https://www.okta.com/) (in beta)
 
 ### Authentication
 

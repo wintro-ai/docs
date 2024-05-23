@@ -10,9 +10,9 @@ For inquiries related specifically to data protection and privacy, you can also 
 Within the Security & Compliance section, we cover the following subjects:
 
 *   [Architecture](/security-compliance/architecture/) - overview of the technical architecture
-*   [Integrations](/security-compliance/integrations/) - the integrations that are supported
 *   [Data Processing](/security-compliance/data-processing/) - how Wintro processes customer data
 *   [Access Controls](/security-compliance/access-controls/) - the used access control mechanisms
+*   [Integrations](/security-compliance/integrations/) - the integrations that are supported
 *   [GDPR](/security-compliance/gdpr/) - how Wintro supports and handles GDPR
 *   [Data Inquiry](/security-compliance/data-inquiry/) - how to request data from Wintro
 *   [Secure Development](/security-compliance/secure-development/) - measures taken to ensure secure development

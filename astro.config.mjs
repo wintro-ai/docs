@@ -65,14 +65,14 @@ export default defineConfig({
         label: 'Architecture',
         link: '/security-compliance/architecture'
       }, {
-        label: 'Integrations',
-        link: '/security-compliance/integrations'
-      }, {
-        label: 'Cognitive Services',
-        link: '/security-compliance/cognitive-services'
-      }, {
         label: 'Data Processing',
         link: '/security-compliance/data-processing'
+      }, {
+        label: 'Access Controls',
+        link: '/security-compliance/access-controls'
+      }, {
+        label: 'Integrations',
+        link: '/security-compliance/integrations'
       }, {
         label: 'GDPR',
         link: '/security-compliance/gdpr'
@@ -80,11 +80,11 @@ export default defineConfig({
         label: 'Data Inquiry',
         link: '/security-compliance/data-inquiry'
       }, {
-        label: 'Access Controls',
-        link: '/security-compliance/access-controls'
-      }, {
         label: 'Secure Development',
         link: '/security-compliance/secure-development'
+      }, {
+        label: 'Cognitive Services',
+        link: '/security-compliance/cognitive-services'
       }]
     }, {
       label: 'Integrations',
