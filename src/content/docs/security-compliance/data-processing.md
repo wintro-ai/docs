@@ -8,7 +8,7 @@ At Wintro, we prioritize security and privacy when processing your data. This do
 Wintro uses a combination of cloud-based services to process and store data securely. Our infrastructure leverages the strengths of AWS, Vercel, Supabase, and Azure AI Services to offer scalable and secure data handling.
 
 <br></br>
-![image](/public/data_processing.png)
+![image](/data_processing.png)
 <br></br>
 
 ### Cloud Services

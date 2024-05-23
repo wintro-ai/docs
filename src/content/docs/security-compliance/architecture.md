@@ -8,7 +8,7 @@ The Wintro platform is built on top of [Amazon Web Services](https://aws.amazon.
 The following diagram depicts the high-level architecture with its main components:
 
 <br/><br/>
-![image](/public/architecture.png)
+![image](/architecture.png)
 <br/><br/>
 
 *   **Frontend**: provides the user the web application HTML and scripts, hosted on [Vercel](https://vercel.com/).
