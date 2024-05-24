@@ -53,9 +53,7 @@ To sync users' LinkedIn network data, users can either download their connection
 
 After receiving ATS vacancies and LinkedIn network data, Wintro cross-references it against our knowledge graph, matching potential candidates based on their name or LinkedIn profile slug. If the candidate is not yet in our graph, they are created. Ownership of query data remains private to Wintro. Once Wintro generates matches for a specific vacancy, matched candidates' profile data are enriched using GPT-models and a ranking of top scoring candidates is returned to the recruiter, and a ranking of to their connected candidates to the employee. A personalized link is then created for the employee to send to a candidate, when they acknowledge they know this person well enough. By opening this link, a candidate is then allowed to enter personal data (e.g. email, phone number), give consent to the company's privacy policy and ultimately apply to this vacancy. Consequentially, this data is pushed into the company's ATS, completing the referral cycle. Aside from referring, an employee can also recommend or decline a candidate match. Such actions are kept within Wintro.
 
-### Data Storage
-
-Temporary candidate references (email, phone number, CV) are stored in the relational database or object storage and exclusively used to send to the company's ATS. After completing this action, this data is then deleted in perpetuity. Only public data enriched by our system, a recruiter or employee is ever stored, private details that are not in a candidate's legitimate interest are not.
+Wintro stores only public candidate information such as name, work experience, and education in our database for referral reward purposes. Private details like phone numbers, emails, and CV files are not stored by Wintro; they are directly transmitted to the relevant Applicant Tracking System (ATS) during the application process. For more details, refer to [our privacy notice](https://www.wintro.ai/privacy-notice).
 
 ### Security and Compliance
 
