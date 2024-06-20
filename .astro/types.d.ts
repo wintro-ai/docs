@@ -150,6 +150,20 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"employees/example copy 2.md": {
+	id: "employees/example copy 2.md";
+  slug: "employees/example-copy-2";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"employees/example copy 3.md": {
+	id: "employees/example copy 3.md";
+  slug: "employees/example-copy-3";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "employees/example copy.md": {
 	id: "employees/example copy.md";
   slug: "employees/example-copy";
@@ -339,9 +353,9 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"recruiters/example.md": {
-	id: "recruiters/example.md";
-  slug: "recruiters/example";
+"recruiters/getting-started.md": {
+	id: "recruiters/getting-started.md";
+  slug: "recruiters/getting-started";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
