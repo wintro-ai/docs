@@ -3,7 +3,7 @@ title: Getting Started
 description: Introduction to getting started with Wintro for recruiters.
 ---
 
-Welcome to Wintro! This guide will help you get started with our AI-powered employee referral platform, making your hiring process more efficient, cost-effective, and higher in quality.
+Welcome to Wintro! This guide will help you get started with our AI-powered employee referral platform, making your referral hiring process more efficient, cost-effective, and higher in quality.
 
 Follow these steps to get your first referral hire:
 

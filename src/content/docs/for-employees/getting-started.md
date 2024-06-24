@@ -1,9 +1,9 @@
 ---
-title: Getting Started for Employees
-description: Kickstart your journey with Wintro as an employee.
+title: Getting Started
+description: Kickstart your journey with Wintro as an employee or external
 ---
 
-Hey there! Welcome to the employee section of Wintro, where we make it super easy for you to help your company find great new hires—and maybe even earn some rewards along the way. Here’s a quick overview of what you can do:
+Hey there! Welcome to Wintro, where we make it super easy for you to help your company find great new hires—and maybe even earn some rewards along the way. Here’s a quick overview of what you can do:
 
 * **Connect your Network**: First things first, connect your professional networks to Wintro. This allows our AI to start identifying potential candidates within your connections who might be a perfect fit for open roles.
 

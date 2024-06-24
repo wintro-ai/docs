@@ -136,58 +136,114 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"docs": {
-"candidates/example copy.md": {
-	id: "candidates/example copy.md";
-  slug: "candidates/example-copy";
+"for-candidates/example copy.md": {
+	id: "for-candidates/example copy.md";
+  slug: "for-candidates/example-copy";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"candidates/example.md": {
-	id: "candidates/example.md";
-  slug: "candidates/example";
+"for-candidates/example.md": {
+	id: "for-candidates/example.md";
+  slug: "for-candidates/example";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/example copy 2.md": {
-	id: "employees/example copy 2.md";
-  slug: "employees/example-copy-2";
+"for-employees/connect-your-network.md": {
+	id: "for-employees/connect-your-network.md";
+  slug: "for-employees/connect-your-network";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/example copy 3.md": {
-	id: "employees/example copy 3.md";
-  slug: "employees/example-copy-3";
+"for-employees/getting-started.md": {
+	id: "for-employees/getting-started.md";
+  slug: "for-employees/getting-started";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/example copy.md": {
-	id: "employees/example copy.md";
-  slug: "employees/example-copy";
+"for-employees/privacy-notice.md": {
+	id: "for-employees/privacy-notice.md";
+  slug: "for-employees/privacy-notice";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/example.md": {
-	id: "employees/example.md";
-  slug: "employees/example";
+"for-employees/refer-a-candidate.md": {
+	id: "for-employees/refer-a-candidate.md";
+  slug: "for-employees/refer-a-candidate";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/manual-referral.md": {
-	id: "employees/manual-referral.md";
-  slug: "employees/manual-referral";
+"for-employees/review-suggestions.md": {
+	id: "for-employees/review-suggestions.md";
+  slug: "for-employees/review-suggestions";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
-"employees/privacy-notice.md": {
-	id: "employees/privacy-notice.md";
-  slug: "employees/privacy-notice";
+"for-employees/track-your-referrals.md": {
+	id: "for-employees/track-your-referrals.md";
+  slug: "for-employees/track-your-referrals";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/connect-your-systems.md": {
+	id: "for-recruiters/connect-your-systems.md";
+  slug: "for-recruiters/connect-your-systems";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/find-candidates.md": {
+	id: "for-recruiters/find-candidates.md";
+  slug: "for-recruiters/find-candidates";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/getting-started.md": {
+	id: "for-recruiters/getting-started.md";
+  slug: "for-recruiters/getting-started";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/invite-your-colleagues.md": {
+	id: "for-recruiters/invite-your-colleagues.md";
+  slug: "for-recruiters/invite-your-colleagues";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/nudge-your-colleagues.md": {
+	id: "for-recruiters/nudge-your-colleagues.md";
+  slug: "for-recruiters/nudge-your-colleagues";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/refer-a-recruiter.md": {
+	id: "for-recruiters/refer-a-recruiter.md";
+  slug: "for-recruiters/refer-a-recruiter";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/review-candidates.md": {
+	id: "for-recruiters/review-candidates.md";
+  slug: "for-recruiters/review-candidates";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
+"for-recruiters/track-suggestions.md": {
+	id: "for-recruiters/track-suggestions.md";
+  slug: "for-recruiters/track-suggestions";
   body: string;
   collection: "docs";
   data: InferEntrySchema<"docs">
@@ -339,34 +395,6 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".mdx"] };
-"recruiters/example copy 2.md": {
-	id: "recruiters/example copy 2.md";
-  slug: "recruiters/example-copy-2";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"recruiters/example copy.md": {
-	id: "recruiters/example copy.md";
-  slug: "recruiters/example-copy";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"recruiters/getting-started.md": {
-	id: "recruiters/getting-started.md";
-  slug: "recruiters/getting-started";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
-"recruiters/refer-a-recruiter.md": {
-	id: "recruiters/refer-a-recruiter.md";
-  slug: "recruiters/refer-a-recruiter";
-  body: string;
-  collection: "docs";
-  data: InferEntrySchema<"docs">
-} & { render(): Render[".md"] };
 "security-compliance/access-controls.md": {
 	id: "security-compliance/access-controls.md";
   slug: "security-compliance/access-controls";

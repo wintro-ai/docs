@@ -73,7 +73,7 @@ export default defineConfig({
       // }
     ]
     }, {
-      label: 'For Employees',
+      label: 'For Employees & Externals',
       // autogenerate: {
       //   directory: 'employees'
       // }
