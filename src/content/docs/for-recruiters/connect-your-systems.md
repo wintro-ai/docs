@@ -6,7 +6,9 @@ description: Step-by-step guide to integrating your essential recruitment tools 
 As a recruiter, connecting your essential systems to Wintro is the first major step in leveraging our AI-powered employee referral platform. Here's how you can integrate your LinkedIn, your Applicant Tracking System (ATS), and chat systems to optimize your hiring process.
 
 ### LinkedIn Connection
-First, install our companion browser extension to connect your LinkedIn account to Wintro. After installation, confirm the connection by checking for a green checkmark on our Chrome extension's icon. If you see a red cross, simply log out and back into LinkedIn to resolve the issue.
+First, connect your LinkedIn account to Wintro using our LinkedIn Sync integration. Simply click "Connect with LinkedIn" on the Wintro platform and log in through LinkedIn's official login page. This step is necessary to enable the core functionality of syncing your professional network.
+
+After establishing the LinkedIn Sync, you can enhance your experience by installing our Chrome Companion extension. This extension provides additional features like Auto Sync of employee networks, which can be enabled in the settings by an admin. This feature is ideal for organizations with established connection-sharing practices, allowing for seamless network synchronization.
 
 ### ATS Integration
 Next, link your Applicant Tracking System. Go to the settings tab on our platform and click "Connect to \<your ATS\>". Follow the detailed steps provided in the integration guide for your ATS in the *Integrations* section of our documentation. If your ATS isn't listed or if the link is incorrect, please contact support@wintro.ai for assistance. Once connected, visit the vacancies tab and click "Sync Vacancies" to synchronize your job listings from the ATS to Wintro, which might take a few minutes depending on the amount of vacancies you have. Remember, synchronizing your ATS is essential for an integrated recruitment process, but you can still manually add vacancies if preferred.

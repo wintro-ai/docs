@@ -9,7 +9,7 @@ Wintro provides three types of integrations:
 
 2. **ATS (Applicant Tracking System) Integrations**: These integrations enable fetching vacancies from and pushing referred candidates back in your ATS. For secure authentication and authorization, these offer flexibility, either employing API keys and user credentials or the OAuth 2.0 protocol.
 
-3. **LinkedIn Integration**: This integration enables the authorized action on LinkedIn of fetching network data. This unique integration utilizes an authorization cookie captured by the Wintro extension.
+3. **LinkedIn Integration**: This integration enables authorized access to LinkedIn network data through LinkedIn's official OAuth authentication flow. The primary connection is established through our LinkedIn Sync integration, with an optional Chrome extension available for organizations that want to enable Auto Sync functionality. All authentication data is encrypted and stored using the same secure AES-256-CBC encryption standard.
 
 ### General Integration Setup
 

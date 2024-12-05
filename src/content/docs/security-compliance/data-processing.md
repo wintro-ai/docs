@@ -47,7 +47,7 @@ Wintro integrates with corporate messaging platforms such as Slack, Microsoft Te
 
 ### LinkedIn Data
 
-To sync users' LinkedIn network data, users can either download their connections data from LinkedIn and upload manually to Wintro in the Settings view, install the [Wintro Companion Chrome Extension](https://chromewebstore.google.com/detail/wintro-companion/iclolnbldkiggoimcopffojpgcpneikn) to have this done automatically or let their network data be synced through a connected recruiter's account who has installed the [Wintro Companion Chrome Extension](https://chromewebstore.google.com/detail/wintro-companion/iclolnbldkiggoimcopffojpgcpneikn). Wintro uses cookies so that users do not need to enter their usernames and passwords at each visit and in order to facilitate exchanges.
+To sync users' LinkedIn network data, users connect through Wintro's LinkedIn Sync integration by logging in through LinkedIn's official authentication flow. For organizations with established connection-sharing practices, administrators can enable Auto Sync by installing the [Wintro Companion Chrome Extension](https://chromewebstore.google.com/detail/wintro-companion/iclolnbldkiggoimcopffojpgcpneikn). Users can also manually download their connections data from LinkedIn and upload it to Wintro in the Settings view if they prefer. Wintro uses secure OAuth authentication for LinkedIn connections and cookies for extension-based synchronization.
 
 ### Data Processing
 
