@@ -47,6 +47,9 @@ export default defineConfig({
       }, {
         label: 'Request a Demo',
         link: '/intro-to-wintro/request-a-demo'
+      }, {
+        label: 'Public Roadmap',
+        link: '/intro-to-wintro/roadmap'
       }]
     }, 
 	{

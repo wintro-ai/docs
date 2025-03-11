@@ -388,6 +388,13 @@ declare module 'astro:content' {
   collection: "docs";
   data: InferEntrySchema<"docs">
 } & { render(): Render[".md"] };
+"intro-to-wintro/roadmap.md": {
+	id: "intro-to-wintro/roadmap.md";
+  slug: "intro-to-wintro/roadmap";
+  body: string;
+  collection: "docs";
+  data: InferEntrySchema<"docs">
+} & { render(): Render[".md"] };
 "intro-to-wintro/what-is-wintro.mdx": {
 	id: "intro-to-wintro/what-is-wintro.mdx";
   slug: "intro-to-wintro/what-is-wintro";
