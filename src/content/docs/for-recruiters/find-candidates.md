@@ -1,214 +1,252 @@
 ---
 title: Find Candidates
-description: Learn how to fine-tune your vacancies and use Wintro's AI to discover the best matching candidates.
+description: Learn how to configure search filters, define match criteria, and use Wintro's AI to discover the best matching candidates.
 ---
 
-
 Wintro automates the candidate discovery process by analyzing your vacancies and matching them with potential candidates from your colleagues' professional networks. The platform uses AI to evaluate candidates based on your specific requirements and scoring criteria, ensuring you receive high-quality referrals that align with your hiring needs.
-This page will walk you through the vacancy setup process, from initial configuration to opening your position for referrals. You'll learn how to:
 
-- Review and adjust vacancy details
-- Configure search filters
-- Fine-tune scoring criteria
-- Preview potential matches
+This page will walk you through the candidate search process, from setting up filters to opening your vacancy for referrals. You'll learn how to:
+
+- Configure search filters for initial candidate screening
+- Define and fine-tune match criteria
+- Preview and test your setup
 - Open your vacancy for referrals
 
 ### Syncing and Adding Vacancies
-Wintro automatically syncs with your ATS every 3 hours to import new vacancies. If you're not using an ATS, you can manually add positions through the **Add Vacancy** button in the Vacancies tab. Each new vacancy, whether synced or manually added, will appear in your Vacancies tab ready for setup and optimization. If you haven't connected your ATS, please refer to the [Connect your Systems](/for-recruiters/connect-your-systems) section of our documentation. 
+Wintro automatically syncs with your ATS every 4 hours to import new vacancies. If you're not using an ATS, you can manually add positions through the **Add Vacancy** (+) button in the Vacancies tab. Each new vacancy, whether synced or manually added, will appear in your Vacancies tab ready for setup. If you haven't connected your ATS, please refer to the [Connect your Systems](/for-recruiters/connect-your-systems) section of our documentation.
 
-### Vacancy Setup Process
-When you click on a new vacancy, you'll find a four-step setup process that helps optimize your search for the ideal candidates:
+### Creating a New Vacancy
+To start the candidate search process, you first need to create a vacancy:
 
-1. Review and adjust vacancy details
-2. Configure search filters
-3. Fine-tune scoring criteria
-4. Preview potential matches
-5. Open vacancy for referrals
+1. Navigate to the **Vacancies** tab in your dashboard
+2. Click the **Plus (+)** button to add a new vacancy
+3. Fill in the basic vacancy details:
+   * **Title**: The role name for the position
+   * **Location**: Where the position is based
+   * **Employment Type**: Full-time, part-time, or contract
+   * **Policy Type**: Remote, hybrid, or in-office
+   * **Content**: The full job description
+   * **Bounty**: Referral bonus amount, if applicable
 
-#### Step 1: Review and adjust vacancy details
-When a vacancy is added, the initial details come from your ATS or manual input. In this first section, you'll see:
+These details form the foundation for Wintro's AI matching and will be used to pre-generate similar job titles and match criteria. You can modify these fields at any time before opening the vacancy for referrals.
 
-* **Title**: The role name as it appears in your ATS
-* **Location**: Where the position is based
-* **Employment Type**: Full-time, part-time, or contract
-* **Policy Type**: Remote, hybrid, or in-office
-* **Content**: The full job description
-* **Public URL**: Link to the public job posting
-* **Bounty**: Referral bonus amount, if applicable
+### Candidate Search Setup Process
+Once your vacancy is created, either click the **search** icon on that vacancy's row in the table, or simply navigate to the **Candidates** tab and select your vacancy. You'll be taken to the Search page where you can configure how Wintro finds and evaluates candidates. The process involves two main steps:
 
-Review these details carefully as they form the foundation for Wintro's AI matching. You can modify any field to better reflect your actual requirements without affecting the original ATS listing. These changes only apply within Wintro and help improve candidate matching accuracy.
+1. **Filter Step**: Configure search filters to determine which candidates to include
+2. **Match Step**: Define scoring criteria to evaluate candidate quality
 
-All subsequent steps—search filters, scoring criteria, and candidate matching—will be based on this information, so ensure it accurately represents your ideal candidate profile.
+#### Step 1: Configure Search Filters
+Click on your vacancy from the Candidates tab to access the Search page. The first step is configuring filters that determine which candidates from your employees' networks will be considered.
 
-#### Step 2: Configure search filters
-In this section, Wintro automatically generates initial search filters based on your vacancy details. These filters help narrow down potential candidates from your employees' networks.
+**The Foundation: Similar Job Titles or Majors**
+
+The cornerstone of Wintro's candidate discovery is the **Similar Job Titles or Majors** field. This uses semantic similarity search to identify candidates with relevant backgrounds. For example:
+- For a "Product Manager" role, add terms like "Product Manager", "Product Owner", "MBA", "Business Analyst"
+- For an "Engineering" role, include "Software Engineer", "Computer Science", "Full Stack Developer"
+- Mix both job titles and educational backgrounds for best results
+
+These terms help Wintro understand the type of candidates you're looking for and form the initial pool from which filters are applied.
+
+**Filter Philosophy: Cast a Wide Net**
+
+When setting filters, remember this key principle: **Filters should exclude bad matches, not search for perfect ones**. The Match step will handle quality scoring, so:
+- Keep filters broad to avoid missing hidden gems
+- Only exclude clear mismatches (e.g., wrong location, competitor companies)
+- Less-than-perfect candidates will be filtered out during the AI matching phase
+- It's better to review more candidates than risk missing the ideal match
 
 **Filter Categories:**
 
-* **Target Locations**: 
-  * Define geographical search areas with specific radius settings
-  * Add multiple locations if needed
-  * Adjust radius per location (e.g., 50km from Brussels)
+* **Location & Radius**:
+  * Add target locations where candidates should be based
+  * Adjust search radius (5-100km) to expand or narrow geographical scope
+  * Leave empty to include candidates from all locations
 
-* **Include Filters**: Only candidates matching these criteria will be included in the results
-  * Companies: Target candidates from specific organizations known for talent in your field
-  * Schools: Filter by educational institutions if specific academic backgrounds are required
-  * Role Keywords: Add relevant skills, titles, or industry terms that candidates must have
-  * Use these filters sparingly - each added filter reduces the candidate pool
+* **Work Filters** (expand to configure):
+  * **Companies to Include**: Target specific organizations (optional)
+  * **Companies to Exclude**: Remove competitors or specific companies
+  * **Minimum Work Experience**: Years of professional experience (0-30)
+  * **Exclude Recruiter Networks**: Filter out recruiting professionals
 
-* **Exclude Filters**: Candidates matching these criteria will be removed from results
-  * Companies: Remove candidates from certain organizations (e.g., direct competitors)
-  * Recruiter Networks: Option to exclude recruiting professionals from results
-  * Ex-employees: Filter out former employees if your policy requires
-  * Like include filters, use these carefully to avoid over-filtering
+* **Education Filters** (expand to configure):
+  * **Schools to Include**: Target specific educational institutions (optional)
+  * **Schools to Exclude**: Remove certain schools if needed
+  * **Graduation Recency**: How recently candidates graduated (0-30 years)
 
-**Best Practices:**
-1. Keep filters minimal - remember that the goal is to help employees get quality suggestions for referrals
-2. It's perfectly acceptable to have some less-relevant candidates in the mix - employees know their network best
-3. Use the Preview feature to see 50 potential matches that would result from your current filters
-4. Adjust filters if preview results show too many irrelevant candidates
-5. Consider removing filters if you're seeing too few candidates
+* **Additional Filters**:
+  * **Exclude Ex-employees**: Remove former employees if your policy requires
 
-Remember: These filters are just the initial screening step. The scorecard criteria will handle the detailed evaluation of candidates, so you don't need to be too restrictive at this stage. Focus on creating a good foundation for suggestions while keeping enough candidates in the pool for meaningful matching.
+**Testing Your Filters:**
+Click **Test Filters** to preview candidates. Look for:
+- **Good diversity**: You should see various backgrounds and experience levels
+- **Reasonable volume**: At least 20-30 candidates to work with
+- **No obvious mismatches**: But don't worry about imperfect fits
 
-#### Step 3: Fine-tune scoring criteria
-The scorecard is a crucial component that determines how Wintro's AI evaluates potential candidates. While initially generated from your vacancy details, this scoring system requires thoughtful fine-tuning to ensure you receive the highest quality matches from your employees' networks.
+If you see too few candidates, remove or broaden filters. If you see completely irrelevant results, add minimal exclusions.
 
-**How the Scorecard Works**
+#### Step 2: Define Match Criteria
+After configuring your filters, click **Continue to Match Step** to define how Wintro's AI will evaluate and score candidates.
 
-Wintro analyzes your vacancy content and generates relevant criteria categories with corresponding sub-criteria. Each category and sub-criterion can be weighted to reflect its importance in the overall evaluation. The total weights across all categories will be summed up to a total that equals 100%, allowing you to prioritize what matters most for your specific role. You have the flexibility to add, remove, or modify both categories and sub-criteria to match your exact requirements.
+**Understanding the Match Criteria System**
 
-**Crafting Effective Criteria**
+The match criteria determine how candidates are evaluated based on your specific requirements:
 
-When developing your scorecard, it's essential to focus on criteria that can be reliably assessed from public LinkedIn profiles. The key is to strike a balance between being specific enough to identify qualified candidates while remaining broad enough to be evaluated from publicly available information.
+* **Automatic Weighting**: Wintro automatically assigns weights based on criterion order
+* **Order = Importance**: Your first criterion gets the highest weight, second gets less, third even less
+* **Simply drag to reorder**: Move criteria up for more importance, down for less
+* **AI Evaluation**: Each candidate is scored against all criteria to calculate overall match percentage
 
-**Strong Criteria Examples**
+**Configuring Your Criteria**
 
-*Educational Background*
+Click the **Edit Criteria** button to customize your match criteria:
 
-This category works well because educational details are consistently displayed on LinkedIn profiles. You might include:
-- Specific degree levels (Bachelor's, Master's, PhD)
-- Fields of study or academic concentrations
-- Notable institutions when relevant for your industry
+1. **Review Auto-Generated Criteria**: Wintro creates initial criteria from your vacancy
+2. **Add Custom Criteria**: Include specific requirements for your role
+3. **Order by Importance**: Drag criteria to reorder - most important at the top
+4. **Remove Irrelevant Criteria**: Delete any that don't apply
 
-*Professional Experience Progression*
+**Recommended First Criterion: Current Role Validation**
 
-Career trajectory is easily assessed through LinkedIn work history. Effective sub-criteria include:
-- Years of experience in relevant roles
-- Industry-specific experience
-- Progression of responsibilities
-- Company types and sizes
-- Team leadership experience when publicly stated
+For best results, place a current role criterion first to ensure strong matches:
+- "Currently active as Product Manager or similar role"
+- "Currently working in Software Engineering position"
+- "Currently in Sales or Business Development role"
 
-*Technical Proficiency*
+This helps ensure candidates score above the 50% threshold needed for employee suggestions and validates your Similar Job Titles filter.
 
-LinkedIn's skills section and work experience make this category particularly viable:
-- Industry-standard tools and platforms
-- Programming languages or technical skills
-- Professional certifications
-- Specific methodologies or frameworks
+**Effective Match Criteria Examples**
 
-*Role Transition Logic*
+All criteria must be evaluable from LinkedIn profiles. Here are proven examples by category:
 
-This category evaluates the natural progression toward your open position:
-- Current role alignment with your vacancy
-- Career movement showing relevant skill development
-- Industry transitions that complement your requirements
+**For Product Manager Role:**
+1. Currently active as Product Manager or Product Owner
+2. 3+ years of experience in product management or business analysis
+3. Experience in B2B SaaS or enterprise software
+4. Technical background or Computer Science degree
+5. Experience with agile methodologies and product analytics tools
 
-**Criteria to Avoid**
+**For Senior Software Engineer Role:**
+1. Currently working as Software Engineer or Tech Lead
+2. 5+ years of experience in backend development
+3. Proficiency in Python, Java, or Node.js
+4. Experience with cloud platforms (AWS, Azure, GCP)
+5. Bachelor's degree in Computer Science or related field
 
-Certain criteria, while important for hiring decisions, cannot be effectively evaluated from LinkedIn profiles and should be avoided in your scorecard:
+**For Sales Executive Role:**
+1. Currently in B2B Sales or Account Executive position
+2. 3+ years of quota-carrying sales experience
+3. Experience selling to enterprise clients (Fortune 500)
+4. Track record in SaaS or technology sales
+5. Bilingual in English and French
 
-*Performance Metrics*
-- Specific achievement percentages
-- Revenue targets
-- Project success rates
-- Team performance indicators
+**For Marketing Manager Role:**
+1. Currently active in Marketing Manager or similar role
+2. 4+ years of digital marketing experience
+3. Experience with performance marketing and paid media
+4. Background in B2C e-commerce or retail
+5. Proficiency in Google Analytics and marketing automation tools
 
-*Interpersonal Qualities*
-- Cultural fit assessments
-- Personality traits
-- Communication style
-- Leadership approach
+**For Data Analyst Role:**
+1. Currently working as Data Analyst or Business Analyst
+2. 2+ years of experience in data analysis
+3. Proficiency in SQL and Python or R
+4. Experience with visualization tools (Tableau, PowerBI)
+5. Bachelor's degree in Statistics, Mathematics, or Economics
 
-*Internal Knowledge*
-- Company-specific tool expertise
-- Internal process familiarity
-- Proprietary system knowledge
+**Criteria Types to Use:**
 
-**Setting Appropriate Weights**
+* **Current Role**: "Currently active as [role]" - recommended as first criterion
+* **Years of Experience**: "X+ years of experience in [specific area]"
+* **Industry Experience**: "Experience in [specific industry/domain]"
+* **Technical Skills**: "Proficiency in [specific tools/technologies]"
+* **Education**: "Bachelor's/Master's degree in [field]"
+* **Language Skills**: "Bilingual in [languages]" or "Fluent in [language]"
+* **Company Type**: "Experience at startups/scale-ups/enterprises"
+* **Leadership**: "Experience managing teams of X+ people"
+* **Career Progression Fit**: "Logical career progression from current role to this position"
+  - Filters out overqualified candidates (e.g., founders, C-level executives for mid-level roles)
+  - Ensures the role represents a sensible next step in their career
+  - Example: "Not currently in senior executive or founder position" for a manager role
 
-Weight distribution is crucial for accurate candidate evaluation. Consider:
-- Allocating higher weights to must-have qualifications
-- Balancing between experience, skills, and education based on role requirements
-- Adjusting weights based on preview results
-- Starting with larger weights for fundamental requirements and fine-tuning based on candidate preview quality
+**Testing Your Match Criteria**
 
-**Validation and Iteration**
+Click **Test Match Criteria** to see how candidates score:
 
-After setting up your initial scorecard:
-1. Use the preview feature to evaluate the quality of matches
-2. Review how different candidates score across your criteria
-3. Adjust weights and criteria based on the preview results
-4. Continue iterating until the preview consistently shows relevant candidates
-5. Remember that some iteration may be needed once the vacancy is live
+1. Review the top-scoring candidates
+2. Check if the order makes sense for your needs
+3. Reorder criteria if certain aspects need more weight
+4. Test again after changes
 
-The scorecard is your primary tool for ensuring match quality. Take time to refine it, as it directly influences which candidates will be suggested to your employees for referrals. Would you like me to continue with the Preview section?
+The key is ensuring your top candidates genuinely match your ideal profile and score above 50% for employee visibility.
 
-#### Step 4: Preview and Launch
-The preview phase is your opportunity to validate your vacancy setup before opening it for referrals. This crucial step helps ensure that your colleagues will receive high-quality candidate suggestions that align with your hiring needs.
+### Opening Your Vacancy for Referrals
 
-**Preview Process**
+Once you're satisfied with both your filters and match criteria, you're ready to open your vacancy for employee referrals.
 
-When you click "Preview Candidates," Wintro will simulate a search based on your configured filters and scoring criteria. The system will return up to 50 potential candidates, providing you with a representative sample of the matches your colleagues might receive.
+**Final Review**
 
-During the preview, you'll see how candidates would be evaluated based on your current scorecard settings. This includes their overall job fit score and how they match against your defined criteria. Take time to review these profiles carefully, as they indicate the quality of matches your employees will receive.
+Before opening, ensure you have:
+- Tested your filters and reviewed the candidate pool
+- Configured and tested your match criteria
+- Verified that high-scoring candidates meet your expectations
 
-**Evaluating Preview Results**
+**Opening the Vacancy**
 
-If the preview results don't meet your expectations, you have several options for refinement:
+Click the green **Open Vacancy** button in the top right corner of the Search page. This action:
 
-First, review your search filters. Are they too restrictive, potentially excluding qualified candidates? Or too broad, allowing in too many irrelevant profiles? Adjust these filters based on what you observe in the preview results.
+1. **Initiates Candidate Search**: Wintro searches across all connected employees' networks
+2. **Applies Your Configurations**: Uses your filters to identify candidates and your criteria to score them
+3. **Distributes Matches**: Sends the best-matching candidates to relevant employees
+4. **Enables Referrals**: Employees can start reviewing and referring candidates immediately
 
-Next, examine your scorecard criteria. Look for patterns in the scoring:
-- Are candidates scoring too similarly across criteria?
-- Are specific criteria consistently producing unexpected results?
-- Does the weight distribution accurately reflect your priorities?
+**Important Notes**
 
-Make adjustments as needed and generate new previews until you're satisfied with the quality of matches.
+* **Configuration Lock**: Once opened, your filter and match settings are locked to ensure consistent evaluation
+* **Processing Time**: The initial search may take a few minutes depending on your network size
+* **Cooldown Period**: After closing a vacancy, there's a 2-minute cooldown before you can reopen it
+* **Live Updates**: New employees joining your company will automatically have their networks searched
 
-#### Step 5: Open vacancy for referrals
+**Managing Open Vacancies**
 
-Once you're confident in your setup, click "Start Accepting Referrals" to launch the vacancy. This initiates several automated processes:
-1. Wintro performs a comprehensive search across all your employees' networks
-2. The system evaluates potential candidates using your finalized criteria
-3. Matched candidates are distributed to relevant employees' accounts
-4. Employees can begin reviewing and referring candidates
+While your vacancy is open:
+- Track referred candidates in the **Live** tab
+- Monitor which employees are making referrals
+- View detailed match scores and reasoning for each candidate
+- Close the vacancy at any time from the Vacancies tab
 
-**Important Considerations**
-- The vacancy settings will be locked while referrals are open
-- A two-minute cooldown period applies between consecutive vacancy openings
-- You can close the vacancy at any time if needed
-- The employee referral process begins immediately upon opening
+### Best Practices
 
-Remember that you can always return to previous setup steps if needed, but once you open the vacancy for referrals, your configurations will be locked to ensure consistent candidate evaluation.
+**Filter Setup: Think Exclusion, Not Inclusion**
+- Use filters to remove obviously wrong candidates, not to find perfect ones
+- Start with just Similar Job Titles/Majors and location - often that's enough
+- Only add more filters if your test results show clear problems
+- Remember: the AI matching step will handle quality scoring
 
-<!-- 
+**Similar Job Titles Strategy**
+- Include 3-5 relevant terms mixing job titles and educational backgrounds
+- Think broadly about related roles and transferable skills
+- Include both current titles and progression titles (e.g., "Senior Developer" and "Tech Lead")
+- Add academic majors for entry-level or specialized positions
 
-### Generating Candidate Matches
-Proceed to the **Generate** tab to start generating potential matches. Here, you can fine-tune the matching process:
-- **Exclude recruiter networks**: Useful if you prefer not to have recruiters referring candidates.
-- **Exclude ex-employees**: Apply if your referral policy excludes former employees.
-- **Include select companies**: Target candidates from specific companies if desired.
-- **Exclude select companies**: Avoid candidates from partner or customer companies.
-- **Include locations with radii**: Narrow your search to specific geographical areas.
+**Match Criteria: Order Matters**
+- Always put "Currently active as [role]" first to validate similarity search
+- Order remaining criteria by importance - Wintro auto-weights based on position
+- Focus on 3-5 key criteria that truly matter for success
+- Ensure all criteria can be evaluated from LinkedIn profiles
 
-### Preview and Finalize Candidates
-After setting your filters, preview the candidates to assess the initial match quality. If the candidates shown don't seem suitable, adjust the vacancy details—add skills, experience requirements, or related roles to refine your search. Once satisfied, apply AI filters like years of relevant experience and preferred languages to enhance the accuracy of matches.
+**Testing and Iteration**
+- Always test filters before proceeding to match criteria
+- Click "Test Match Criteria" to see how candidates score
+- If top matches don't look right, reorder criteria rather than adding more
+- Ensure top candidates score above 50% for employee visibility
 
-### Reviewing Matches
-Generating matches shouldn't take more than two minutes. Once completed, you'll receive a notification and can view the matched candidates under the **Candidates** tab. Here, you can review them in detail and proceed with the recruitment process. -->
+**Managing Open Vacancies**
+- Review performance weekly in the Live tab
+- Monitor which employees are actively referring
+- Adjust if you're not getting enough quality referrals
+- Close promptly when the position is filled to free up slots
 
 ---
 
-With your vacancy now opened up for referrals, it's time to review matching profiles in the next section.
+With your vacancy configured and opened for referrals, your employees can now start reviewing and referring candidates from their networks. Navigate to the next section to learn how to review and manage these referrals.
