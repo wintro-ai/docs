@@ -39,6 +39,14 @@ Once your vacancy is created, either click the **search** icon on that vacancy's
 #### Step 1: Configure Search Filters
 Click on your vacancy from the Candidates tab to access the Search page. The first step is configuring filters that determine which candidates from your employees' networks will be considered.
 
+<div style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); border-radius: 16px; overflow: hidden; margin: 40px 0;">
+
+![Search Filters Setup](/filter-setup.png)
+
+</div>
+
+<!-- Screenshot needed: Candidates > [Vacancy] > Search page showing the Filter step with the sidebar open. Include: Similar Job Titles field filled with 3-4 examples, location added with radius slider visible, and the expanded Work/Education accordion sections showing additional filter options. Make sure the "Test Filters" button is visible at the bottom. -->
+
 **The Foundation: Similar Job Titles or Majors**
 
 The cornerstone of Wintro's candidate discovery is the **Similar Job Titles or Majors** field. This uses semantic similarity search to identify candidates with relevant backgrounds. For example:
@@ -98,6 +106,14 @@ The match criteria determine how candidates are evaluated based on your specific
 * **AI Evaluation**: Each candidate is scored against all criteria to calculate overall match percentage
 
 **Configuring Your Criteria**
+
+<div style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); border-radius: 16px; overflow: hidden; margin: 40px 0;">
+
+![Match Criteria Configuration](/match-criteria.png)
+
+</div>
+
+<!-- Screenshot needed: Search page showing the Match step with sidebar open. Display the criteria list with 4-5 criteria visible, showing the drag handles for reordering. Include the "Edit Criteria" button and have the first criterion be something like "Currently active as [Role Name]". The "Test Match Criteria" button should be visible at the bottom. -->
 
 Click the **Edit Criteria** button to customize your match criteria:
 
@@ -192,6 +208,14 @@ Before opening, ensure you have:
 - Verified that high-scoring candidates meet your expectations
 
 **Opening the Vacancy**
+
+<div style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); border-radius: 16px; overflow: hidden; margin: 40px 0;">
+
+![Ready to Open Vacancy](/open-vacancy.png)
+
+</div>
+
+<!-- Screenshot needed: Search page after testing both filters and match criteria, showing the candidates table with AI-matched candidates visible (with match percentages in a column). The green "Open Vacancy" button should be prominently visible in the top-right corner. Include a few candidate rows showing scores above 50% to demonstrate good matches. -->
 
 Click the green **Open Vacancy** button in the top right corner of the Search page. This action:
 
