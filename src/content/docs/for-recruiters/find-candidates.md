@@ -228,16 +228,17 @@ Click the green **Open Vacancy** button in the top right corner of the Search pa
 
 * **Configuration Lock**: Once opened, your filter and match settings are locked to ensure consistent evaluation
 * **Processing Time**: The initial search may take a few minutes depending on your network size
-* **Cooldown Period**: After closing a vacancy, there's a 2-minute cooldown before you can reopen it
-* **Live Updates**: New employees joining your company will automatically have their networks searched
+* **Cooldown Period**: After closing a vacancy, there's a 1 hour cooldown before you can reopen it with new search filters and match criteria
+* **Live Updates**: New employees joining you Wintro will automatically get suggestions for an open vacancy once they connect their network
 
 **Managing Open Vacancies**
 
-While your vacancy is open:
-- Track referred candidates in the **Live** tab
-- Monitor which employees are making referrals
-- View detailed match scores and reasoning for each candidate
-- Close the vacancy at any time from the Vacancies tab
+While your vacancy is open, you will be redirected to the **Live** tab where you can:
+- Shortlist candidates, so the candidate will be added to your shortlist where you can track them and reach out yourself
+- Reject candidates, so they won't show up any longer in team members' suggestions
+- Nudge team members to refer candidates
+- View detailed matching and reasoning for each candidate
+- Close the vacancy at any time from here, or from the Vacancies tab
 
 ### Best Practices
 
