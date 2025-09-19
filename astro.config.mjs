@@ -174,6 +174,18 @@ export default defineConfig({
         label: 'Lever',
         link: '/integrations/lever'
       }, {
+        label: 'Microsoft Entra ID - SCIM',
+        link: '/integrations/microsoft-entra-id-scim'
+      }, {
+        label: 'Microsoft Entra ID - SSO',
+        link: '/integrations/microsoft-entra-id-sso'
+      }, {
+        label: 'Microsoft Teams App',
+        link: '/integrations/microsoft-teams-app'
+      }, {
+        label: 'Microsoft Teams Messaging & Outlook',
+        link: '/integrations/microsoft-teams-messaging-outlook'
+      }, {
         label: 'Oracle Recruiting',
         link: '/integrations/oracle-recruiting'
       }, {
