@@ -3,24 +3,29 @@ title: Track Your Referrals
 description: How to monitor your referral activities within Wintro.
 ---
 
-Let’s take a closer look at how you can keep track of all the referrals, recommendations, and feedback you’ve provided through Wintro. This feature helps you stay organized and informed about your contributions to your company's hiring efforts.
+Let's take a closer look at how you can keep track of all the referrals, recommendations, and feedback you've provided through Wintro. This feature helps you stay organized and informed about your contributions to your company's hiring efforts.
 
-### Keeping Tabs on Your Actions
-Within Wintro, you have a dedicated area to view all the actions you've taken on candidate suggestions. Here’s what you can track:
+### Tracking Your Referrals
+The **Referrals tab** is your dedicated space to monitor all candidates you've referred. Here's what you can see:
 
-- **Referred Candidates**: See a list of all the candidates you have referred. This includes those you know personally and have recommended for specific roles through the referral link you sent.
+**Referral Progress Tracking**
+- View the current status of each referral
+- See if they've applied for the role
+- Track if they're in the interviewing stage
+- Know when they've been hired or if they're no longer being considered
 
-- **Recommended Candidates**: Check out the candidates you've recommended based on their profiles, even if you don't know them personally. These are potential fits you've identified that our recruitment team will further evaluate.
+**Managing Your Referrals**
+Sometimes plans change—if a candidate you referred tells you they're no longer interested, you can help keep everyone informed:
+1. Click the three dots (**...**) next to the referral
+2. Select **"Cancel referral..."** from the dropdown
+3. This lets recruiters know the candidate is no longer interested, which is valuable information for them
 
-- **Not a Fit**: View the candidates you've marked as Not a Fit. This section helps you keep track of whom you’ve considered unsuitable for current openings, providing valuable feedback to our recruitment algorithms.
+### Tracking Recommendations and Other Actions
+Your other actions can be viewed in the **Intros tab** using filters:
 
-### Future Developments
-We’re always working to improve your experience and our platform's capabilities. Here’s what’s coming soon:
-
-- **Post-Referral Tracking**: We're developing features that will allow you to track what happens after you refer a candidate. This includes updates on whether they've been contacted, if they’ve advanced in the hiring process, and the final outcome of their application. This way, you’ll have full visibility into the impact of your referrals!
+- **Recommendations**: Filter to see all candidates you've recommended to recruiters (where you chose not to contact them directly)
+- **Not a Fit**: View candidates you've declined and the reasons you provided
+- **Reverting Actions**: Changed your mind? You can revert recommendations or "not a fit" decisions from the Intros tab
 
 ### Why It Matters
-Keeping track of your referrals not only helps you manage your contributions but also ensures you are recognized for your efforts, especially once our post-referral tracking is implemented. Every referral you make can significantly influence our team’s composition and culture, and we want you to see the ripple effects of your recommendations.
-
----
-Keep referring and stay tuned for new updates that will bring even more depth to tracking your referrals!
+Keeping track of your referrals helps you manage your contributions and ensures you're recognized for your efforts. Every referral you make can significantly influence your team's composition and culture, and now you have full visibility into the impact of your recommendations.

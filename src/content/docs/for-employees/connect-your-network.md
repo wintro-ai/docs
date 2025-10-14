@@ -24,17 +24,19 @@ We take your privacy seriously. Here's exactly what we access:
 We only use this information to match people in your network with open roles at your company. Your data is never shared with third parties or used for advertising. You can disconnect your account anytime from your settings.
 
 ### Getting Started with Network Sync
-Once your organization adds you to Wintro, you’ll receive an invitation email with a privacy notice. Here’s where you decide how you’d like to manage your network sync:
+Once your organization adds you to Wintro, you'll receive an invitation email with a privacy notice. During onboarding, you'll see the LinkedIn Sync option as the default method. If you prefer a different approach, click "Other network sync options" to explore alternatives.
 
-1. **LinkedIn Sync (Recommended)**: Connect your network directly through LinkedIn's secure authentication. Simply click "Connect with LinkedIn" and log in through LinkedIn's official login page. This is the fastest way to sync your network. Remember: we only sync your connections list—nothing else.
+**LinkedIn Sync (Default & Recommended)**: Connect your network directly through LinkedIn's secure authentication. Simply click "Connect with LinkedIn" and log in through LinkedIn's official login page. This is the fastest way to sync your network. Remember: we only sync your connections list—nothing else.
 
-2. **Recruiter Sync**: Opt for this if you prefer a hands-off approach. Ensure you're connected to at least one company recruiter on LinkedIn and that your profile visibility is set to public. This allows recruiters to sync your network without you needing to do anything else. Your network will be automatically updated over time, keeping the referral suggestions fresh and relevant.
+#### Other Network Sync Options
 
-3. **Manual Sync**: Fancy a bit more control? You can manually sync your network in two ways:
+1. **Recruiter Sync**: Opt for this if you prefer a hands-off approach. Ensure you're connected to at least one company recruiter on LinkedIn and that your profile visibility is set to public. This allows recruiters to sync your network without you needing to do anything else. Your network will be automatically updated over time, keeping the referral suggestions fresh and relevant.
+
+2. **Manual Sync**: Fancy a bit more control? You can manually sync your network in two ways:
    - Install our Chrome Companion extension to enable Auto Sync functionality, keeping your network automatically up to date.
    - Download your LinkedIn connection data and upload it to Wintro. Keep in mind, this method requires manual updates in the future, which means more work for you to keep your referral suggestions up to date.
 
-4. **Decline Participation**: Not feeling like sharing? You can choose not to participate, and your network won’t be synced or used for referrals.
+3. **Decline Participation**: Not feeling like sharing? You can choose not to participate, and your network won't be synced or used for referrals.
 
 ### After Syncing Your Network
 Once you choose your preferred sync option, it might take anywhere from a few minutes to a few hours for your full network to sync (especially when our servers are buzzing with activity). But hang tight—you’ll start receiving notification about potential matches through Slack, Teams, Google Chat, or email as soon as they're ready.
