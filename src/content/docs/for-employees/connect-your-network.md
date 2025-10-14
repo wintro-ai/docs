@@ -6,12 +6,27 @@ description: How to sync your professional network with Wintro.
 Hey there! Ready to make your professional connections work wonders? Here’s how you can sync your network to Wintro and start getting awesome job referral suggestions.
 
 ### Why Connect Your Network?
-By connecting your network, you enable our smart AI to scour through your professional contacts and identify potential candidates who could be great fits for openings at your company. It’s all about making your network valuable to your team and snagging some referral bonuses along the way!
+By connecting your network, you enable our smart AI to scour through your professional contacts and identify potential candidates who could be great fits for openings at your company. It's all about making your network valuable to your team and snagging some referral bonuses along the way!
+
+### Your Privacy & Data
+We take your privacy seriously. Here's exactly what we access:
+
+**What we access**
+- Your public LinkedIn profile information
+- Your connections list (who you're connected to)
+- Public profiles of your connections
+
+**What we never access**
+- Your private messages or conversations
+- Your job search activity or applications
+- Any other private LinkedIn data
+
+We only use this information to match people in your network with open roles at your company. Your data is never shared with third parties or used for advertising. You can disconnect your account anytime from your settings.
 
 ### Getting Started with Network Sync
 Once your organization adds you to Wintro, you’ll receive an invitation email with a privacy notice. Here’s where you decide how you’d like to manage your network sync:
 
-1. **LinkedIn Sync (Recommended)**: Connect your network directly through LinkedIn's secure authentication. Simply click "Connect with LinkedIn" and log in through LinkedIn's official login page. This is the fastest way to sync your network, and your data will be automatically synced once the connection is established.
+1. **LinkedIn Sync (Recommended)**: Connect your network directly through LinkedIn's secure authentication. Simply click "Connect with LinkedIn" and log in through LinkedIn's official login page. This is the fastest way to sync your network. Remember: we only sync your connections list—nothing else.
 
 2. **Recruiter Sync**: Opt for this if you prefer a hands-off approach. Ensure you're connected to at least one company recruiter on LinkedIn and that your profile visibility is set to public. This allows recruiters to sync your network without you needing to do anything else. Your network will be automatically updated over time, keeping the referral suggestions fresh and relevant.
 
