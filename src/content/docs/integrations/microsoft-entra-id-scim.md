@@ -18,7 +18,6 @@ Before starting the SCIM configuration, ensure you have:
 
 #### Important Limitations
 
-- **Groups are NOT supported** - Users must be assigned individually
 - **Required fields for all users**:
   - Valid email address (used as primary username)
   - First name (given name)
@@ -157,16 +156,19 @@ This expression ensures:
 - Disabled accounts in Entra ID are marked as inactive in Wintro
 - All other users are marked as active
 
-### Step 5: Assign Users for Provisioning
-
-> **Important**: Groups are not supported. Users must be assigned individually.
+### Step 5: Assign Users and Groups for Provisioning
 
 1. Navigate to **Users and groups** in the application sidebar
 2. Click **+ Add user/group**
-3. Click **None Selected** under Users
-4. Search for and select individual users to provision
-5. Click **Select**
-6. Click **Assign**
+3. Select users individually or assign entire groups:
+   - **For individual users**: Click **None Selected** under Users, search and select users
+   - **For groups**: Click **None Selected** under Groups, search and select the groups you want to provision
+4. Click **Select**
+5. Click **Assign**
+
+> **Tip**: Using groups is recommended for easier management. All members of assigned groups will be automatically provisioned to Wintro. Note that only user data is synced - groups themselves are not created in Wintro, they are simply used to determine which users to provision.
+
+> **Best practice**: Create a [dynamic security group](https://learn.microsoft.com/en-us/entra/identity/users/groups-dynamic-membership) in Microsoft Entra ID with rules that automatically include users who should have access to Wintro (e.g., based on department or job title). This way, new employees matching the criteria are automatically provisioned without requiring manual intervention from Microsoft admins.
 
 <div style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); border-radius: 16px; overflow: hidden; margin: 40px 0;">
 
@@ -174,7 +176,7 @@ This expression ensures:
 
 </div>
 
-<!-- Screenshot needed: Users and groups page showing several individual users assigned (no groups) -->
+<!-- Screenshot needed: Users and groups page showing assigned users and/or groups -->
 
 ##### User Requirements
 
@@ -255,8 +257,8 @@ Users missing any of these fields will fail to provision.
 ##### Users Not Provisioning
 
 **Check User Assignment**
-- Verify users are assigned to the application
-- Confirm users aren't in groups (individual assignment required)
+- Verify users or groups are assigned to the application
+- If using groups, confirm the user is a member of an assigned group
 
 **Verify Required Fields**
 - Check users have email, first name, last name, and display name in Entra ID
