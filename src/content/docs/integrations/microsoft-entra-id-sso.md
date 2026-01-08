@@ -72,15 +72,17 @@ Click **Save** after entering all URLs.
 | Claim Name | Source Attribute |
 |------------|------------------|
 | Unique User Identifier (Name ID) | user.mail |
-| emailaddress | user.mail |
-| givenname | user.givenname |
-| surname | user.surname |
-| name | user.displayname |
+| http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress | user.mail |
+| http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname | user.givenname |
+| http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname | user.surname |
+| http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name | user.displayname |
+
+> **Important**: The claim names must include the full namespace URI as shown above. The overview page in Entra ID displays shortened names (e.g., "emailaddress"), but click **Edit** on each claim to verify the full URI is set correctly. Using short names without the namespace will cause authentication to fail.
 
 3. To add or edit a claim:
    - Click **+ Add new claim**
-   - Enter the claim name
-   - Leave namespace blank
+   - Enter the claim name exactly as shown in the table above (including the full `http://schemas.xmlsoap.org/...` URI)
+   - **Do not** leave the namespace blank - use `http://schemas.xmlsoap.org/ws/2005/05/identity/claims`
    - Select **Attribute** as the source
    - Choose the appropriate source attribute
    - Click **Save**
@@ -214,7 +216,7 @@ If you encounter issues not covered in this guide:
 
 After successfully configuring SSO:
 - Consider setting up [SCIM provisioning](/integrations/microsoft-entra-id-scim) for automated user management
-- Configure [Microsoft Teams integration](/integrations/microsoft-teams) for seamless collaboration
+- Configure [Microsoft Teams integration](/integrations/microsoft-teams-app) for seamless collaboration
 - Review and adjust session management settings for optimal security and user experience
 - Train your IT helpdesk on the new SSO login process
 
