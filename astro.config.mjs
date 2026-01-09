@@ -28,6 +28,10 @@ export default defineConfig({
     head: [
       {
         tag: 'script',
+        attrs: { src: '/simple-gate.js', defer: true },
+      },
+      {
+        tag: 'script',
         content: `
           !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures getActiveMatchingSurveys getSurveys getNextSurveyStep onSessionId".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
           posthog.init('phc_iJUSH6ZAr6VCa98uCAhsyzQtcRnbqBaPrzt3YXGGfYH',{api_host:'https://us.i.posthog.com', person_profiles: 'identified_only' // or 'always' to create profiles for anonymous users as well
@@ -45,18 +49,49 @@ export default defineConfig({
         label: 'What is Wintro?',
         link: '/intro-to-wintro/what-is-wintro'
       }, {
-        label: 'Request a Demo',
-        link: '/intro-to-wintro/request-a-demo'
-      }, {
-        label: 'Public Roadmap',
-        link: '/intro-to-wintro/roadmap'
-      }]
-    }, 
+        label: 'How Wintro Works',
+        link: '/intro-to-wintro/how-wintro-works'
+      }
+      // {
+      //   label: 'Plans & Access Levels',
+      //   link: '/intro-to-wintro/plans-and-access-levels'
+      // }, {
+      //   label: 'Onboarding Checklist',
+      //   link: '/intro-to-wintro/onboarding-checklist'
+      // }, {
+      //   label: 'Rollout Guide',
+      //   link: '/intro-to-wintro/rollout-guide'
+      // }, {
+      //   label: 'Implementation Overview',
+      //   link: '/intro-to-wintro/implementation-overview'
+      // }
+      ]
+    },
+    // {
+    //   label: 'For Admins',
+    //   collapsed: true,
+    //   items: [
+    //     {
+    //       label: 'Getting Started',
+    //       link: '/for-admins/getting-started'
+    //     }, {
+    //       label: 'Connect your Systems',
+    //       link: '/for-admins/connect-your-systems'
+    //     }, {
+    //       label: 'Company Settings',
+    //       link: '/for-admins/company-settings'
+    //     }, {
+    //       label: 'User Management',
+    //       link: '/for-admins/user-management'
+    //     }]
+    // },
+
 	{
       label: 'For Recruiters',
       // autogenerate: {
       //   directory: 'recruiters'
       // }
+      // collapsed: true,
       items: [
       // Each item here is one entry in the navigation menu.
       {
@@ -91,6 +126,7 @@ export default defineConfig({
       // autogenerate: {
       //   directory: 'employees'
       // }
+      // collapsed: true,
       items: [
         {
           label: 'Getting Started',
@@ -114,6 +150,7 @@ export default defineConfig({
     // }, 
 	{
       label: 'Security & Compliance',
+      // collapsed: true,
       items: [
       // Each item here is one entry in the navigation menu.
       {
@@ -146,9 +183,13 @@ export default defineConfig({
       }]
     }, {
       label: 'Integrations',
+      // collapsed: true,
       items: [{
         label: 'BambooHR',
         link: '/integrations/bamboohr'
+      }, {
+        label: 'Browser Extension',
+        link: '/integrations/browser-extension'
       }, {
         label: 'Bullhorn',
         link: '/integrations/bullhorn'
