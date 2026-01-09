@@ -5,6 +5,8 @@ description: Configure automatic user provisioning (SCIM) with Microsoft Entra I
 
 This guide outlines the steps for setting up automatic user provisioning between Microsoft Entra ID (formerly Azure Active Directory) and Wintro using SCIM 2.0. With SCIM configured, user accounts are automatically created, updated, and deactivated in Wintro based on changes in your Microsoft Entra ID.
 
+> **Note**: SCIM user provisioning is an Enterprise feature available on select Wintro plans. If your plan doesn't include SCIM, please [contact our sales team](mailto:sales@wintro.ai) to upgrade.
+
 > **Note**: SCIM provisioning syncs every 40 minutes. Initial provisioning may take up to 40 minutes to reflect in Wintro.
 
 #### Prerequisites
@@ -12,7 +14,8 @@ This guide outlines the steps for setting up automatic user provisioning between
 Before starting the SCIM configuration, ensure you have:
 
 - **Admin access** to your Microsoft Entra ID tenant
-- **Admin access** to your Wintro company account (Recruiter role)
+- **Admin role** in your Wintro organization
+- A Wintro plan that includes SCIM functionality (Enterprise plan)
 - Microsoft Entra ID Premium P1 or P2 license (required for provisioning)
 - Users in Microsoft Entra ID with complete profiles (email, first name, last name, display name)
 
@@ -56,11 +59,14 @@ Before starting the SCIM configuration, ensure you have:
 
 Before configuring provisioning in Azure, you need to generate a SCIM token in Wintro:
 
-1. Log in to [Wintro](https://wintro.app) as an admin
-2. Navigate to **Settings** > **Security** > **SCIM Configuration**
-3. Click **Generate SCIM Token**
-4. **Copy and securely save this token** - you won't be able to see it again
-5. Keep this browser tab open while you configure Azure
+1. Log in to [Wintro](https://wintro.app) as an Admin
+2. Navigate to **Settings** > **Organization** tab
+3. Scroll to the **User Provisioning (SCIM)** section
+4. Click **Generate Token**
+5. **Copy and securely save this token** - you won't be able to see it again
+6. Keep this browser tab open while you configure Azure
+
+> **Note**: If you don't see the SCIM section or see "Enterprise feature" with a "Contact Sales" button, your current plan doesn't include SCIM. Please [contact our sales team](mailto:sales@wintro.ai) to upgrade to a plan that includes this functionality.
 
 <!-- <div style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); border-radius: 16px; overflow: hidden; margin: 40px 0;">
 
@@ -265,8 +271,8 @@ Users missing any of these fields will fail to provision.
 - Review provisioning logs for specific field errors
 
 **Token Issues**
-- Regenerate SCIM token in Wintro if expired
-- Update token in Azure provisioning settings
+- Generate a new SCIM token in Wintro Settings > Organization if the current one expired
+- Update the token in Azure provisioning settings
 
 ##### Provisioning Delays
 
@@ -300,15 +306,15 @@ This shouldn't occur as matching is done by email. If you see duplicates:
 
 - **Monitor provisioning logs** weekly for errors
 - **Review inactive users** monthly
-- **Update SCIM token** annually (before expiration)
+- **Regenerate SCIM token** annually in Wintro Settings > Organization (before expiration)
 - **Audit user assignments** quarterly
 
 ##### Security Considerations
 
-- **Protect SCIM tokens** - Treat as passwords
-- **Limit admin access** - Only necessary personnel should manage provisioning
-- **Enable notifications** - Get alerts for provisioning errors
-- **Regular audits** - Review who has access to provisioning configuration
+- **Protect SCIM tokens** - Treat as passwords, never share in plain text
+- **Limit admin access** - Only users with Admin role in Wintro can manage SCIM settings
+- **Enable notifications** - Get alerts for provisioning errors in Azure
+- **Regular audits** - Review who has Admin access in Wintro and provisioning configuration in Azure
 
 ### Combining with SSO
 

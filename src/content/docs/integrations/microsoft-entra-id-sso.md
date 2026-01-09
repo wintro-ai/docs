@@ -5,16 +5,16 @@ description: Configure SAML 2.0 Single Sign-On (SSO) with Microsoft Entra ID for
 
 This guide walks you through configuring SAML 2.0 Single Sign-On (SSO) between Microsoft Entra ID (formerly Azure Active Directory) and Wintro. SSO allows your employees to access Wintro using their Microsoft corporate credentials, enhancing security and user experience.
 
-> **Note**: SSO configuration for Wintro requires coordination with our support team. After configuring your Identity Provider, you'll need to share your metadata with us to complete the setup.
+> **Note**: SSO is a paid feature available on select Wintro plans. If your plan doesn't include SSO, please [contact our sales team](mailto:sales@wintro.ai) to upgrade.
 
 ### Prerequisites
 
 Before starting the SSO configuration, ensure you have:
 
 - **Admin access** to your Microsoft Entra ID tenant
-- **Admin access** to your Wintro company account
+- **Admin role** in your Wintro organization
+- A Wintro plan that includes SSO functionality
 - Microsoft Entra ID Premium license (P1 or P2) for SAML-based SSO
-- Contact with Wintro support team to complete the configuration
 
 ### Step 1: Add Wintro to Enterprise Applications
 
@@ -101,29 +101,20 @@ Click **Save** after entering all URLs.
 
 <!-- Screenshot needed: SAML Certificates section showing the Federation Metadata XML download option and App Federation Metadata URL -->
 
-### Step 5: Share Metadata with Wintro Support
+### Step 5: Configure SSO in Wintro
 
-After configuring your Microsoft Entra ID application:
+After configuring your Microsoft Entra ID application, complete the SSO setup in Wintro:
 
-1. **Contact Wintro Support** via:
-   - Email: support@wintro.ai
-   - Or through your dedicated Slack/Teams channel
+1. Log in to [Wintro](https://wintro.app) as an Admin
+2. Navigate to **Settings** > **Organization** tab
+3. Scroll to the **Single Sign-On (SSO)** section
+4. Click **Add SSO** and choose one of two options:
+   - **URL**: Paste the **App Federation Metadata URL** from Microsoft Entra ID
+   - **File**: Upload the **Federation Metadata XML** file you downloaded
+5. Select which email domains should use SSO authentication
+6. Click **Save** to complete the configuration
 
-2. **Share your metadata** using one of these methods:
-   - **Option A**: Send the downloaded Federation Metadata XML file
-   - **Option B**: Share the App Federation Metadata URL from Microsoft Entra ID
-
-3. **Provide additional information**:
-   - Your company domain (e.g., yourcompany.com)
-   - List of email domains that should use SSO
-   - Whether you want to enforce SSO for all users or make it optional
-
-4. **Wintro Support will**:
-   - Configure your SSO settings on our end
-   - Provide you with a test account for validation
-   - Schedule a brief call to walk through the testing process if needed
-
-> **Timeline**: SSO configuration typically takes 1-2 business days after receiving your metadata.
+> **Tip**: Make sure you've already added your email domains in the **Email Domains** section before configuring SSO. Only domains registered in Wintro can be associated with SSO.
 
 ### Step 6: Assign Users and Groups
 
@@ -139,7 +130,7 @@ Back in the Microsoft Entra admin center:
 
 ### Step 7: Test the SSO Connection
 
-After Wintro Support confirms your SSO configuration is complete:
+After completing the SSO configuration in both Microsoft Entra ID and Wintro:
 
 #### Test from Microsoft Entra ID:
 1. In the Wintro application, go to **Single sign-on**
@@ -163,12 +154,11 @@ After Wintro Support confirms your SSO configuration is complete:
 
 ### Step 8: Roll Out to Your Organization
 
-Once testing is successful, coordinate with Wintro Support to:
+Once testing is successful, you can configure additional settings in Wintro:
 
-1. **Enable SSO enforcement** (if desired) - requiring all users to authenticate via SSO
-2. **Set up auto-provisioning rules** - automatically creating accounts for new employees
-3. **Configure session policies** - timeout settings and remember me options
-4. **Schedule employee communication** - we can help with announcement templates
+1. **Configure Login Methods** - In Settings > Organization, choose which login methods are available to users (SSO, OAuth, Magic Link)
+2. **Set up SCIM provisioning** - Consider setting up [SCIM user provisioning](/integrations/microsoft-entra-id-scim) for automatic account management
+3. **Communicate to employees** - Inform your team about the new SSO login option
 
 ### Troubleshooting
 
@@ -176,18 +166,18 @@ Once testing is successful, coordinate with Wintro Support to:
 
 **"Invalid SAML Response" Error**
 - Verify the Reply URL in Entra ID matches exactly: `https://oqwjnxpmowajlgwaoqcs.supabase.co/auth/v1/sso/saml/acs`
-- Ensure you've shared the correct metadata with Wintro Support
+- Ensure you've uploaded the correct metadata file or URL in Wintro Settings
 - Check that the Name ID format is set to email address (user.mail)
 
 **"User Not Found" Error**
 - Confirm the email claim is properly mapped to user.mail
 - Check that the user's email in Entra ID matches their email in Wintro
-- Enable auto-provisioning if users don't exist in Wintro yet
+- Consider setting up [SCIM provisioning](/integrations/microsoft-entra-id-scim) to automatically create users
 
 **"Access Denied" After Successful Authentication**
 - Verify the user is assigned to the Wintro application in Entra ID
 - Check that the user has an active Wintro license
-- Confirm the default role setting if auto-provisioning is enabled
+- If using SCIM, verify user provisioning completed successfully
 
 **Users Can't Find SSO Login Option**
 - Ensure SSO is enabled in Wintro authentication settings
@@ -207,10 +197,10 @@ If you encounter issues not covered in this guide:
 
 ### Security Considerations
 
-- **Certificate Rotation**: Microsoft Entra ID certificates expire every 3 years. When rotation is needed, share the new metadata with Wintro Support
+- **Certificate Rotation**: Microsoft Entra ID certificates expire every 3 years. When rotation is needed, update the metadata in Wintro Settings > Organization
 - **Conditional Access**: Consider implementing Conditional Access policies in Entra ID for additional security (MFA, device compliance, location restrictions)
 - **Regular Audits**: Review SSO access logs monthly and remove access for terminated employees promptly
-- **Backup Authentication**: Wintro Support can help configure emergency access procedures if needed
+- **Backup Authentication**: Keep Magic Link enabled as a fallback authentication method for emergency access
 
 ### Next Steps
 
