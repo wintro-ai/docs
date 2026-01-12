@@ -188,9 +188,9 @@ export default defineConfig({
         label: 'BambooHR',
         link: '/integrations/bamboohr'
       }, {
-        label: 'Browser Extension',
-        link: '/integrations/browser-extension'
-      }, {
+        // label: 'Browser Extension',
+        // link: '/integrations/browser-extension'
+      // }, {
         label: 'Bullhorn',
         link: '/integrations/bullhorn'
       }, {
