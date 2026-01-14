@@ -1,32 +1,32 @@
 ---
-title: Teams Messaging & Outlook
-description: Connect your Microsoft Teams and Outlook to send messages and emails directly from Wintro
+title: Microsoft Teams Messaging
+description: Connect your Microsoft Teams to send direct messages to colleagues from Wintro
 ---
 
-This guide walks you through connecting your Microsoft Teams and Outlook accounts to Wintro, enabling you to send Teams messages and emails directly from the platform without switching between applications.
+This guide walks you through connecting your Microsoft Teams account to Wintro, enabling you to send Teams messages directly from the platform without switching between applications.
 
 ### Prerequisites
 
 Before starting the integration, ensure you have:
 
-- **Active Microsoft 365 account** with Teams and Outlook access
+- **Active Microsoft 365 account** with Teams access
 - **Recruiter account** in Wintro with appropriate permissions
 - **Organization permissions** to connect third-party applications (some organizations may require admin approval)
 
 ### How It Works
 
-The Teams Messaging & Outlook integration uses Microsoft Graph API to:
+The Teams Messaging integration uses Microsoft Graph API to:
 - Send direct messages in Microsoft Teams on your behalf
-- Send emails through your Outlook account on your behalf
 - Look up colleagues by email to start conversations
+- Create new chat conversations with colleagues
 - Maintain your identity when sending messages (recipients see messages from you, not Wintro)
 
 ### Step 1: Access Integration Settings
 
 1. Log in to your Wintro account
-2. Navigate to **Recruiter Settings**
-3. Look for **Integrations** section
-4. Find **Microsoft Teams & Outlook** integration
+2. Navigate to **Settings**
+3. Go to the **Communication** tab
+4. Find **Microsoft Teams** in the integrations section
 5. Click **Connect**
 
 ### Step 2: Microsoft OAuth Authentication
@@ -39,7 +39,7 @@ When you click to connect, you'll be redirected to Microsoft's secure login page
 
 #### Permissions Explained
 
-Wintro requests the following Microsoft Graph API permissions. We follow the principle of least privilege and only request what is strictly necessary for the integration to function. All permissions are **delegated permissions**, meaning Wintro can only act on behalf of the signed-in user and cannot perform actions without user context.
+Wintro requests the following Microsoft Graph API permissions for Teams messaging. We follow the principle of least privilege and only request what is strictly necessary for the integration to function. All permissions are **delegated permissions**, meaning Wintro can only act on behalf of the signed-in user and cannot perform actions without user context.
 
 | Permission | Microsoft Name | Why We Need It |
 |------------|----------------|----------------|
@@ -47,13 +47,12 @@ Wintro requests the following Microsoft Graph API permissions. We follow the pri
 | **Find users by email** | `User.ReadBasic.All` | To look up colleagues in your organization when you want to send them a Teams message. This only accesses basic public profile information (name, email). |
 | **Send Teams messages** | `ChatMessage.Send` | To send chat messages in Microsoft Teams on your behalf when you reach out to colleagues from Wintro. |
 | **Create and manage chats** | `Chat.ReadWrite` | To create new chat conversations with colleagues. Required to initiate a Teams chat before sending the first message. |
-| **Send emails** | `Mail.Send` | To send emails through your Outlook account when you choose to reach out via email instead of Teams. |
 | **Stay connected** | `offline_access` | To maintain your connection without requiring you to re-authenticate every time you use Wintro. This allows us to refresh your access securely. |
 
 #### What We Don't Access
 
-- **We cannot read your emails** - We only have permission to send, not read
 - **We cannot read your Teams messages** - We only have permission to send, not read
+- **We cannot read your emails** - Not requested for this integration
 - **We cannot access your calendar** - Not requested
 - **We cannot access your files or OneDrive** - Not requested
 - **We cannot modify your profile** - Read-only access
@@ -64,7 +63,7 @@ Wintro requests the following Microsoft Graph API permissions. We follow the pri
 If your organization requires admin approval for third-party applications, you'll see an "Approval required" screen after logging in:
 
 1. **Enter the business justification** in the text box, such as:
-   - "Required for recruiting communications via Teams and Outlook through Wintro"
+   - "Required for recruiting communications via Teams through Wintro"
 2. Click **"Request approval"**
 
 Once an administrator approves your request, you'll receive an email notification and can return to complete the integration process.

@@ -221,11 +221,14 @@ export default defineConfig({
         label: 'Microsoft Entra ID - SSO',
         link: '/integrations/microsoft-entra-id-sso'
       }, {
+        label: 'Microsoft Outlook',
+        link: '/integrations/microsoft-outlook'
+      }, {
         label: 'Microsoft Teams App',
         link: '/integrations/microsoft-teams-app'
       }, {
-        label: 'Microsoft Teams Messaging & Outlook',
-        link: '/integrations/microsoft-teams-messaging-outlook'
+        label: 'Microsoft Teams Messaging',
+        link: '/integrations/microsoft-teams-messaging'
       }, {
         label: 'Oracle Recruiting',
         link: '/integrations/oracle-recruiting'
