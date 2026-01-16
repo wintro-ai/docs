@@ -103,7 +103,9 @@ Click **Save** after entering all URLs.
 
 ### Step 5: Configure SSO in Wintro
 
-After configuring your Microsoft Entra ID application, complete the SSO setup in Wintro:
+After configuring your Microsoft Entra ID application, complete the SSO setup in Wintro.
+
+**If you have a Wintro Admin account:**
 
 1. Log in to [Wintro](https://wintro.app) as an Admin
 2. Navigate to **Settings** > **Organization** tab
@@ -115,6 +117,12 @@ After configuring your Microsoft Entra ID application, complete the SSO setup in
 6. Click **Save** to complete the configuration
 
 > **Tip**: Make sure you've already added your email domains in the **Email Domains** section before configuring SSO. Only domains registered in Wintro can be associated with SSO.
+
+**If you don't have a Wintro account yet:**
+
+Send one of the following to [support@wintro.ai](mailto:support@wintro.ai) and we'll configure SSO on your behalf:
+- The **App Federation Metadata URL** from Microsoft Entra ID, or
+- The **Federation Metadata XML** file you downloaded
 
 ### Step 6: Assign Users and Groups
 
